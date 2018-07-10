@@ -462,6 +462,7 @@ country_event = {
 	option = {
 		name = spainf.4.a
 		add_popularity = {
+<<<<<<< HEAD
 			ideology = conservatism
 			popularity = 0.05
 		}
@@ -472,6 +473,10 @@ country_event = {
 		add_popularity = {
 			ideology = liberalism
 			popularity = 0.05
+=======
+			ideology = liberalism
+			popularity = 0.15
+>>>>>>> 2fb4f03d9695788bb2dc6178ae2e0ca15556f27d
 		}
 		add_ideas = democratic_influence
 	}

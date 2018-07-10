@@ -44,7 +44,7 @@ country_event = {
 			remove_ideas = SPR_polarization
 			start_civil_war = {
 				ruling_party = fascism
-				ideology = democratic
+				ideology = liberalism
 				size = 0.7
 				capital = 41
 				states = { 41 165 167 168 172 173 175 170 297 169 767 766 }
@@ -204,7 +204,7 @@ country_event = {
 	            desc = "POLITICS_FAI_DESC"
 	            picture = "Portrait_SPR_Giral.dds"
 	            expire = "1965.1.1"
-	            ideology = socialism
+	            ideology = social-democracy
 	            traits = {
 	            }
             }
@@ -231,7 +231,7 @@ country_event = {
 				country_event = { id = spain.11 days = 45 }
 				country_event = { id = spain.40 days = 30 }
 				set_politics = {
-			        ruling_party = democratic
+			        ruling_party = liberalism
 			        elections_allowed = yes
 		            last_election = "1936.2.16"
 	                election_frequency = 48
@@ -333,7 +333,7 @@ country_event = {
 	                traits = { }
 	                skill = 1
             }
-            add_idea = { idea = SPR_mutinies }			
+            add_ideas = { idea = SPR_mutinies }			
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
@@ -405,7 +405,7 @@ country_event = {
 	            desc = "POLITICS_FAI_DESC"
 	            picture = "Portrait_SPR_Giral.dds"
 	            expire = "1965.1.1"
-	            ideology = socialism
+	            ideology = social-democracy
 	            traits = {
 	            }
             }
@@ -577,7 +577,7 @@ country_event = {
 			}
 			news_event = { hours = 6 id = news.63 }
 			set_global_flag = spanish_civil_war
-			add_idea = SPR_mutinies
+			add_ideas = SPR_mutinies
 			create_field_marshal = {
 	            name = "José Miaja"
 	            portrait_path = "gfx/leaders/SPR/Portrait_Spain_Miaja.dds"
@@ -658,14 +658,14 @@ country_event = {
 			}			
 			
 			set_politics = {
-			    ruling_party = democratic
+			    ruling_party = liberalism
 			    elections_allowed = yes
 		        last_election = "1936.2.16"
 	            election_frequency = 48
 		    }
 			
 			add_popularity = {
-				ideology = democratic
+				ideology = liberalism
 				popularity = 1
 			}	
 			add_popularity = {
@@ -930,7 +930,7 @@ country_event = {
 		name = spain.9.a
 		set_country_flag = election_1936
 		set_party_name = 
-		{ideology = democratic 
+		{ideology = liberalism 
 		long_name = SPR_democratic_party_azana_long 
 		name = SPR_democratic_party_azana }
 		
@@ -939,7 +939,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -970,7 +970,7 @@ country_event = {
 	        election_frequency = 48
 		}
 		set_party_name = 
-		{ideology = democratic 
+		{ideology = liberalism 
 		long_name = SPR_democratic_party_azana_long 
 		name = SPR_democratic_party_azana }
 		set_party_name = 
@@ -983,7 +983,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -1262,7 +1262,7 @@ country_event = {
 				}
 				load_oob = "SPA_CEDA_War"
 				set_equipment_fraction = 0.3
-				set_national_unity = 0.9
+				set_stability = 0.9
 				set_politics = {
 			        ruling_party = neutrality
 			        elections_allowed = yes
@@ -1271,7 +1271,7 @@ country_event = {
 		        }
 				set_cosmetic_tag = CIV
 				add_popularity = {
-					ideology = democratic
+					ideology = liberalism
 					popularity = -0.1
 				}
 				add_popularity = {
@@ -1418,7 +1418,7 @@ country_event = {
 			
 			load_oob = "SPR_CEDA_War"
 			set_equipment_fraction = 0.3
-			set_national_unity = 0.8
+			set_stability = 0.8
 			set_country_flag = commie_spain
 			set_cosmetic_tag = SPC
 			add_popularity = {
@@ -1452,7 +1452,7 @@ country_event = {
 				#remove_ideas = SPR_zamora
 				load_oob = "SPR_CEDA_WAR"
 				set_equipment_fraction = 0.3
-				set_national_unity = 0.9
+				set_stability = 0.9
 				#country_event = { id = spain.3 days = 1 }
 				set_country_flag = commie_spain
 			    set_cosmetic_tag = SPC
@@ -1480,7 +1480,7 @@ country_event = {
 			
 			load_oob = "SPA_CEDA_WAR"
 			set_equipment_fraction = 0.3
-			set_national_unity = 0.9
+			set_stability = 0.9
 			
 			set_politics = {
 				ruling_party = fascism
@@ -1652,7 +1652,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -1679,14 +1679,14 @@ country_event = {
 				has_idea = democratic_influence
 			}
 		}
-		add_national_unity = -0.1
+		add_stability = -0.1
 		hidden_effect = {
 		create_country_leader = {
 	        name = "Manuel Azana"
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -1779,7 +1779,7 @@ country_event = {
 		name = spain.12.a
 		
 		add_popularity = {
-		    ideology = democratic
+		    ideology = liberalism
 			popularity = 0.05
 		}
 		
@@ -1841,7 +1841,7 @@ country_event = {
 		name = spain.13.a
 		hidden_effect = { country_event = { id = spain.48 days = 40 } }
 		add_popularity = {
-		    ideology = democratic
+		    ideology = liberalism
 			popularity = 0.05
 		}
 		
@@ -1906,7 +1906,7 @@ country_event = {
 		ai_chance = { factor = 0.5 }
 		name = spain.14.b
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 			elections_allowed = yes
 		    last_election = "1940.2.16"
 	        election_frequency = 48
@@ -1944,7 +1944,7 @@ country_event = {
 	        election_frequency = 48
 		}
 		set_party_name = 
-		{ideology = democratic 
+		{ideology = liberalism 
 		long_name = SPR_democratic_party_azana_long 
 		name = SPR_democratic_party_azana }
 		
@@ -1953,7 +1953,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -1966,13 +1966,13 @@ country_event = {
 		ai_chance = { factor = 0.4 }
 		name = spain.14.b
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 			elections_allowed = yes
 		    last_election = "1940.2.16"
 	        election_frequency = 48
 		}
 		set_party_name = 
-		{ideology = democratic 
+		{ideology = liberalism 
 		long_name = SPR_democratic_party_azana_long 
 		name = SPR_democratic_party_azana }
 		
@@ -1981,7 +1981,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -1999,7 +1999,7 @@ country_event = {
 	        election_frequency = 48
 		}
 		set_party_name = 
-		{ideology = democratic 
+		{ideology = conservatism 
 		long_name = SPR_democratic_party_azana_long 
 		name = SPR_democratic_party_azana }
 		
@@ -2008,7 +2008,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -2053,7 +2053,7 @@ country_event = {
 		ai_chance = { factor = 0.4 }
 		name = spain.14.b
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = conservatism
 			elections_allowed = yes
 		    last_election = "1940.2.16"
 	        election_frequency = 48
@@ -2146,7 +2146,7 @@ country_event = {
 	        desc = "POLITICS_NEGRIN_DESC"
 	        picture = "Portrait_Spain_Negrin.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    fascism_enemy
 	        }
@@ -2167,7 +2167,7 @@ country_event = {
 		        name = SPR_pce 
             }
 			set_party_name = {
-		        ideology = democratic 
+		        ideology = liberalism 
 		        long_name = SPR_ars_long 
 		        name = SPR_ars
             }
@@ -2175,13 +2175,13 @@ country_event = {
 		    set_country_flag = SPR_democratic_socialist
 		}
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 			elections_allowed = yes
 		    last_election = "1936.2.16"
 	        election_frequency = 48
 		}
 		add_popularity = {
-		    ideology = democratic
+		    ideology = liberalism
 			popularity = 0.15
 		}
 	}
@@ -2206,7 +2206,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -2553,7 +2553,7 @@ country_event = {
 	option = {
 		name = spain.14.b
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 			elections_allowed = yes
 		    last_election = "1944.2.16"
 	        election_frequency = 48
@@ -2589,7 +2589,7 @@ country_event = {
 		ai_chance = { factor = 0.5 }
 		name = spain.29.a
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 			elections_allowed = yes
 		    last_election = "1944.2.16"
 	        election_frequency = 48
@@ -2612,7 +2612,7 @@ country_event = {
 	        election_frequency = 48
 		}
 		set_party_name = {
-		        ideology = democratic
+		        ideology = conservatism
 		        long_name = SPR_ars_long 
 		        name = SPR_ars
             }
@@ -3288,7 +3288,7 @@ country_event = {
 	        desc = "POLITICS_FAI_DESC"
 	        picture = "Portrait_SPR_Casares.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    fascism_enemy
 	        }
@@ -3306,13 +3306,13 @@ country_event = {
 	            desc = "POLITICS_PRIETO_DESC"
 	            picture = "Portrait_Spain_Prieto.dds"
 	            expire = "1965.1.1"
-	            ideology = socialism
+	            ideology = social-democracy
 	            traits = {
 		            public_order_keeper
 	            }
 		}
 		set_party_name = {
-		        ideology = democratic
+		        ideology = liberalism
 		        long_name = SPR_ars_long 
 		        name = SPR_ars
             }
@@ -3329,13 +3329,13 @@ country_event = {
 	        desc = "POLITICS_MANUEL_BARRIO_DESC"
 	        picture = "Portrait_SPR_Barrio.dds"
 	        expire = "1965.1.1"
-	        ideology = liberalism
+	        ideology = social-liberalism
 	        traits = {
 			    moderate_compromiser
 	        }
         }
 		set_party_name = {
-		        ideology = democratic
+		        ideology = liberalism
 		        long_name = SPR_ac_long 
 		        name = SPR_ac
             }
@@ -3377,7 +3377,7 @@ country_event = {
 		name = spain.45.c
 		hidden_effect = { country_event = { id = spain.47 days = 40 } }
 		add_ideas = { SPR_francisco_franco }
-		add_national_unity = 0.05
+		add_stability = 0.05
 		add_political_power = 50
 	}
 }
@@ -3404,7 +3404,7 @@ country_event = {
 		name = spain.46.a
 		hidden_effect = { country_event = { id = spain.13 days = 40 } }
 		add_political_power = -70
-		add_national_unity = 0.05
+		add_stability = 0.05
 		add_timed_idea = { idea = SPR_concessions days = 180 }
 	}
 	
@@ -3447,7 +3447,7 @@ country_event = {
 				states = { 165 167 168 173 169 166 170 178 175 }
 			}
 			set_politics = {
-				ruling_party = democratic
+				ruling_party = liberalism
 				elections_allowed = yes
 		        last_election = "1936.2.16"
 	            election_frequency = 48
@@ -3584,7 +3584,7 @@ country_event = {
 				}
 				load_oob = "SPR_CEDA_WAR"
 				set_equipment_fraction = 0.7
-				set_national_unity = 0.8
+				set_stability = 0.8
 				#remove_ideas = SPR_zamora
 				set_country_flag = commie_spain
 			    set_cosmetic_tag = SPC
@@ -3637,7 +3637,7 @@ country_event = {
 			remove_ideas = SPR_polarization
 			start_civil_war = {
 				ruling_party = communism
-				ideology = democratic
+				ideology = liberalism
 				size = 0.7
 				capital = 41
 				states = { 41 171 174 176 172 290 768 763 764 766 767 297 699 177 }
@@ -3670,15 +3670,15 @@ country_event = {
 				}
 				load_oob = "SPA_CEDA_War"
 				set_equipment_fraction = 0.3
-				set_national_unity = 0.9
+				set_stability = 0.9
 				set_politics = {
-			        ruling_party = democratic
+			        ruling_party = liberalism
 			        elections_allowed = yes
 		            last_election = "1936.2.16"
 	                election_frequency = 48
 		        }
 				add_popularity = {
-					ideology = democratic
+					ideology = conservatism
 					popularity = -0.1
 				}
 				add_popularity = {
@@ -3825,7 +3825,7 @@ country_event = {
 			
 			load_oob = "SPR_CEDA_War"
 			set_equipment_fraction = 0.3
-			set_national_unity = 0.8
+			set_stability = 0.8
 			set_country_flag = commie_spain
 			set_cosmetic_tag = SPC
 			add_popularity = {
@@ -3858,7 +3858,7 @@ country_event = {
 		set_country_flag = civil_war_avoided 
 		set_country_flag = recovered 
 		add_popularity = {
-		    ideology = democratic
+		    ideology = liberalism
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -3997,7 +3997,7 @@ country_event = {
 		remove_ideas = SPR_riots2
 		remove_ideas = SPR_polarization
 		add_political_power = 100
-		add_national_unity = 0.05
+		add_stability = 0.05
 	}
 
 }
@@ -4024,7 +4024,7 @@ country_event = {
 		name = spain.49.a
 		hidden_effect = { country_event = { id = spain.48 days = 20 } }
 		add_political_power = -100
-		add_national_unity = 0.05
+		add_stability = 0.05
 		add_timed_idea = { idea = SPR_concessions days = 180 }
 	}
 	
@@ -4265,7 +4265,7 @@ country_event = {
 	            elections_allowed = no
             }
             set_party_name = {
-			    ideology = democratic 
+			    ideology = liberalism 
 		        long_name = SPR_democratic_party_azana_long 
 		        name = SPR_democratic_party_azana 
 			}
@@ -4275,7 +4275,7 @@ country_event = {
 	            desc = "POLITICS_MANUEL_AZANA_DESC"
 	            picture = "Portrait_Spain_Manuel_Azana.dds"
 	            expire = "1965.1.1"
-	            ideology = socialism
+	            ideology = social-democracy
 	            traits = {
 				    ambitious_reformer
 	            }
@@ -4326,7 +4326,7 @@ country_event = {
 	            expire = "1965.1.1"
 	            ideology = centrism
 	            traits = {
-		            stauch_democrat
+		            staunch_democrat
 	            }
 		    }			
 		custom_effect_tooltip = will_go_democratic
@@ -4413,7 +4413,7 @@ country_event = {
 	option = {
 		name = spain.55.a
 		set_politics = {
-	        ruling_party = democratic
+	        ruling_party = liberalism
 	        last_election = "1936.2.16"
 	        election_frequency = 48
 	        elections_allowed = yes
@@ -4662,7 +4662,7 @@ country_event = {
 				}
 				load_oob = "SPR_CEDA_WAR"
 				set_equipment_fraction = 0.7
-				set_national_unity = 0.8
+				set_stability = 0.8
 				#remove_ideas = SPR_zamora
 				set_country_flag = commie_spain
 			    set_cosmetic_tag = SPC
@@ -4691,7 +4691,7 @@ country_event = {
 			
 			load_oob = "SPA_CEDA_WAR"
 			set_equipment_fraction = 0.7
-			set_national_unity = 0.9
+			set_stability = 0.9
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.1
@@ -4749,13 +4749,13 @@ country_event = {
 				}
 				load_oob = "SPA_CEDA_War"
 				set_equipment_fraction = 0.3
-				set_national_unity = 0.9
+				set_stability = 0.9
 				set_politics = {
 			        ruling_party = neutrality
 			        elections_allowed = no
 		        }
 				add_popularity = {
-					ideology = democratic
+					ideology = liberalism
 					popularity = -0.1
 				}
 				add_popularity = {
@@ -4863,7 +4863,7 @@ country_event = {
 			
 			load_oob = "SPR_CEDA_War"
 			set_equipment_fraction = 0.3
-			set_national_unity = 0.8
+			set_stability = 0.8
 			set_country_flag = commie_spain
 			set_cosmetic_tag = SPC
 			add_popularity = {
@@ -4934,7 +4934,7 @@ country_event = {
 	option = {
 		name = spain.63.b
 		add_political_power = -100
-		add_national_unity = -0.1
+		add_stability = -0.1
 	}
 }
 
@@ -5060,7 +5060,7 @@ country_event = {
 		ai_chance = { factor = 0.5 }
 		name = spain.29.a
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 			elections_allowed = yes
 		    last_election = "1940.2.16"
 	        election_frequency = 48
@@ -5075,7 +5075,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -5093,7 +5093,7 @@ country_event = {
 	        election_frequency = 48
 		}
 		set_party_name = {
-		        ideology = democratic
+		        ideology = liberalism
 		        long_name = SPR_democratic_party_azana_long 
 		        name = SPR_democratic_party_azana
             }
@@ -5102,7 +5102,7 @@ country_event = {
 	        desc = "POLITICS_MANUEL_AZANA_DESC"
 	        picture = "Portrait_Spain_Manuel_Azana.dds"
 	        expire = "1965.1.1"
-	        ideology = socialism
+	        ideology = social-democracy
 	        traits = {
 			    ambitious_reformer
 	        }
@@ -5230,7 +5230,7 @@ country_event = {
 		name = spain.72.a
 		hidden_effect = {
 		    set_politics = {
-	            ruling_party = democratic
+	            ruling_party = liberalism
 	            last_election = "1932.2.16"
 	            election_frequency = 48
 	            elections_allowed = yes

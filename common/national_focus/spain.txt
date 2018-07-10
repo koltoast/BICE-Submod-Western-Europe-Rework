@@ -2047,11 +2047,11 @@ focus_tree = {
 				    popularity = -1
 			    }
                 add_popularity = {
-				    ideology = democratic
+				    ideology = liberalism
 				    popularity = -1
 			    }				
 			}
-            add_national_unity = -0.1
+            add_stability = -0.1
             add_ideas = reign_of_terror
             set_country_flag = repression_done		
 		}
@@ -2296,7 +2296,7 @@ focus_tree = {
 			factor = 0
 		}
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 			set_rule = { can_create_factions = yes }
 			create_faction = "south_axis"
 			if = {
@@ -2692,7 +2692,7 @@ focus_tree = {
 			GER = { 
 				add_opinion_modifier = { target = ROOT modifier = protest_action } 
 			}
-			add_national_unity = 0.1
+			add_stability = 0.1
 		}
 	}
 	
@@ -2853,7 +2853,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 			FRA = { 
 				add_opinion_modifier = { target = ROOT modifier = large_increase } 
 			}
@@ -2923,7 +2923,7 @@ focus_tree = {
 			factor = 5
 		}
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 			USA = { 
 				add_opinion_modifier = { target = ROOT modifier = large_increase } 
 			}
@@ -3863,7 +3863,7 @@ focus_tree = {
 					}
 				}
 				VEN = {
-                remove_idea = american_influence_drift_democratic				
+                remove_ideas = american_influence_drift_democratic				
 				country_event = spainf.5 
 				}
 				#hidden_effect = {
@@ -3904,7 +3904,7 @@ focus_tree = {
 					}
 				}
 				PRU = {
-                remove_idea = american_influence_drift_democratic				
+                remove_ideas = american_influence_drift_democratic				
 				country_event = spainf.5 
 				}
 				#hidden_effect = {
@@ -3945,7 +3945,7 @@ focus_tree = {
 					}
 				}
 				BRA = {
-                remove_idea = american_influence_drift_democratic				
+                remove_ideas = american_influence_drift_democratic				
 				country_event = spainf.5 
 				}
 				#hidden_effect = {
@@ -3986,7 +3986,7 @@ focus_tree = {
 					}
 				}
 				ARG = {
-                remove_idea = american_influence_drift_democratic				
+                remove_ideas = american_influence_drift_democratic				
 				country_event = spainf.5 
 				}
 				#hidden_effect = {
@@ -4027,7 +4027,7 @@ focus_tree = {
 					}
 				}
 				MEX = {
-                remove_idea = american_influence_drift_democratic				
+                remove_ideas = american_influence_drift_democratic				
 				country_event = spainf.5 
 				}
 				#hidden_effect = {
@@ -4127,7 +4127,7 @@ focus_tree = {
 		completion_reward = {
 		    army_experience = 25
 			add_political_power = 75
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 	
@@ -4158,11 +4158,11 @@ focus_tree = {
 				    popularity = -1
 			    }
                 add_popularity = {
-				    ideology = democratic
+				    ideology = liberalism
 				    popularity = -1
 			    }				
 			}
-            add_national_unity = -0.1
+            add_stability = -0.1
             add_ideas = reign_of_terror	
 		}
 	}
@@ -4315,7 +4315,7 @@ focus_tree = {
 		completion_reward = {
 			remove_ideas = SPR_old_guard
 			add_political_power = -70
-			add_national_unity = -0.05
+			add_stability = -0.05
 		}
 	}
 	
@@ -5487,7 +5487,7 @@ focus_tree = {
 				category = cat_heavy_fighter
 			}
 		}
-		swap_ideas = { remove_idea = SPR_fighterfoc1 add_idea = SPR_fighterfoc2 }
+		swap_idea = { remove_ideas = SPR_fighterfoc1 add_ideas = SPR_fighterfoc2 }
 	}
 	
 	focus = {
