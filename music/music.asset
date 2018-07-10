@@ -1,0 +1,253 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "hoi4mainthemeallies.ogg"
+	volume = 0.65
+}
+
+# General Peace:
+music = {
+	name = "general_peace_1"
+	file = "general_peace_heartsofmen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_2"
+	file = "thewarends.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_peace_3"
+	file = "asongforthechildrenofww2.ogg"
+	volume = 0.65
+}
+
+# General war:
+music = {
+	name = "general_war_1"
+	file = "general_war_bringforththetanks.ogg"
+	volume = 0.65
+}
+music = {
+	name = "general_war_2"
+	file = "general_war_theattack.ogg"
+	volume = 0.65
+}
+
+
+# Allies Peace:
+music = {
+	name = "allies_peace_1"
+	file = "allies_peace_morningofdday.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_peace_2"
+	file = "endofthetour.ogg"
+	volume = 0.65
+}
+
+
+# Allies War:
+music = {
+	name = "allies_war_1"
+	file = "wearesoldiers.ogg"
+	volume = 0.65
+}
+music = {
+	name = "allies_war_2"
+	file = "allies_war_theroyalairforce.ogg"
+	volume = 0.65
+}
+
+
+# Axis Peace:
+music = {
+	name = "axis_peace_1"
+	file = "axis_peace_krakow.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_peace_2"
+	file = "luftwaffemarch_reprise.ogg"
+	volume = 0.65
+}
+
+
+# Axis War:
+music = {
+	name = "axis_war_1"
+	file = "axistheme.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_2"
+	file = "heavywater.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_3"
+	file = "operationbarbarossa.ogg"
+	volume = 0.65
+}
+music = {
+	name = "axis_war_4"
+	file = "war_axis_1_daysofthunder.ogg"
+	volume = 0.65
+}
+
+
+# Comintern Peace:
+
+music = {
+	name = "comintern_peace_1"
+	file = "motherrussia.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_2"
+	file = "theredarmy.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_peace_3"
+	file = "sovietvictory.ogg"
+	volume = 0.65
+}
+
+# Comintern War:
+
+music = {
+	name = "comintern_war_1"
+	file = "themightofsovietunion.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_2"
+	file = "cominterntheme.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "comintern_war_3"
+	file = "thegreatpatrioticwar.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "himno_riego"
+	file = "himnoderiego.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "a_las_barricadas"
+	file = "alasbarricadas.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "quinto_reg"
+	file = "quintoreg.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "mi_paradero"
+	file = "miparadero.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "ay_carmela"
+	file = "ay_carmela.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "que_sera"
+	file = "que_sera.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "frente_unido"
+	file = "frente_unido.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "la_internacional"
+	file = "la_internacional.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "cara_al_sol"
+	file = "cara_al_sol.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "himno_franco"
+	file = "himno_franco.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "la_legion"
+	file = "la_legion.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "la_fila"
+	file = "las_filas.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "los_campesinos"
+	file = "los_campesinos.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "hijos_del_pueblo"
+	file = "hijos_del_pueblo.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "viva_la_fai"
+	file = "viva_la_fai.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "el_camarada"
+	file = "el_camarada.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "falangista_soy"
+	file = "falangista_soy.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "jarama"
+	file = "jarama.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "monarquia"
+	file = "monarquia.ogg"
+	volume = 0.65
+}

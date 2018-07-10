@@ -1,0 +1,564 @@
+
+music = {
+	song = "maintheme"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+# PEACE SONGS ##################
+music = {
+	song = "general_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "general_peace_3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}
+}
+
+music = {
+	song = "allies_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "allies_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "axis_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = fascist
+		}		
+	}	
+}
+
+music = {
+	song = "axis_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = fascist
+		}		
+	}	
+}
+
+# WAR SONGS ####################
+
+music = {
+	song = "general_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "general_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascist
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascist
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascist
+		}		
+	}	
+}
+
+music = {
+	song = "axis_war_4"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = fascist
+		}		
+	}	
+}
+
+music = {
+	song = "allies_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "allies_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = democratic
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_peace_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_peace_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_peace_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = no
+			has_government = communism
+		}		
+	}	
+}
+
+
+music = {
+	song = "comintern_war_1"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_war_2"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "comintern_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 2
+
+			has_war = yes
+			has_government = communism
+		}		
+	}	
+}
+
+music = {
+	song = "a_las_barricadas"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = communism
+			date > 1936.7.18
+			
+		}		
+	}	
+}
+
+music = {
+	song = "mi_paradero"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			OR = {
+			has_government = communism
+			has_government = democratic
+			}
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "quinto_reg"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = communism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "himno_riego"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			OR = {
+			has_government = neutrality
+			has_government = democratic
+			}
+		}		
+	}	
+}
+
+music = {
+	song = "ay_carmela"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			OR = {
+			has_government = communism
+			has_government = democratic
+			}
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "que_sera"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			OR = {
+			has_government = communism
+			has_government = democratic
+			}
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "frente_unido"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			OR = {
+			has_government = communism
+			has_government = democratic
+			}
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "la_internacional"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = communism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "cara_al_sol"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = fascism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "himno_franco"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = fascism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "la_legion"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = fascism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "la_fila"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = fascism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "los_campesinos"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			OR = {
+			has_government = communism
+			has_government = democratic
+			}
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "viva_la_fai"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_country_flag = cnt_in_power
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "hijos_del_pueblo"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_country_flag = cnt_in_power
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "el_camarada"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = fascism
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "falangista_soy"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = fascism
+			date > 1936.7.18
+		}		
+	}	
+}
+music = {
+	song = "jarama"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = democratic
+			date > 1936.7.18
+		}		
+	}	
+}
+
+music = {
+	song = "monarquia"
+	
+	chance = {
+		modifier = {
+			factor = 5
+
+            tag = SPR
+			has_government = neutrality
+			date > 1936.7.18
+		}		
+	}	
+}

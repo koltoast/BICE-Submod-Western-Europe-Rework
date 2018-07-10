@@ -1,0 +1,196 @@
+frente_popular = {
+    ban_falange = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_idea = SPR_polarization
+			has_government = democratic
+            has_civil_war = no
+        }
+		cost = 30
+        visible = {
+			has_country_flag = popular_front
+        }
+        fire_only_once = yes
+        complete_effect = {
+            add_popularity = { ideology = fascism popularity = -0.1 }
+            add_political_power = 20				
+            set_country_flag = falange_banned
+
+        }
+
+    }
+	
+	land_redistribution = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+		    has_government = democratic
+            has_civil_war = no
+        }
+        visible = {
+			has_country_flag = popular_front
+        }
+        fire_only_once = yes
+		cost = 50
+        complete_effect = {
+            add_political_power = -20				
+            169 = {
+				add_extra_state_shared_building_slots = 1					
+			}
+			170 = {
+				add_extra_state_shared_building_slots = 1					
+			}
+			173 = {
+				add_extra_state_shared_building_slots = 1					
+			}
+
+        }
+
+    }
+	
+	vote_galicia = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+		    has_government = democratic
+            has_civil_war = no
+        }
+		cost = 30
+        visible = {
+			has_country_flag = popular_front
+        }
+        fire_only_once = yes
+        complete_effect = {
+            add_stability = 0.1				
+			171 = {
+				add_extra_state_shared_building_slots = 1					
+			}
+
+        }
+
+    }
+	
+	amnesty = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+		    has_government = democratic
+            has_civil_war = no
+        }
+		cost = 20
+        visible = {
+			has_country_flag = popular_front
+        }
+        fire_only_once = yes
+        complete_effect = {
+            add_political_power = -10				
+			add_popularity = { ideology = communism popularity = 0.05 }
+
+        }
+
+    }
+
+ 
+}
+
+SPR_alzamiento_nacional = {
+    SPR_unify_land = {
+
+		icon = generic_operation
+
+		allowed = {
+			original_tag = SPR
+			has_government = fascism
+			has_civil_war = yes			
+		}
+
+		available = {
+			has_full_control_of_state = 169
+			has_full_control_of_state = 170
+			has_full_control_of_state = 763
+		}
+
+		days_mission_timeout = 70
+		fire_only_once = yes
+
+		activation = {
+            NOT = {
+			    has_full_control_of_state = 169
+			    has_full_control_of_state = 170
+			}
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_war_support = 0.1
+		}
+
+		timeout_effect = {
+			add_war_support = -0.1
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	SPR_madrid_attack = {
+
+		icon = generic_operation
+
+		allowed = {
+			original_tag = SPR
+			has_government = fascism
+			has_civil_war = yes			
+		}
+
+		available = {
+			controls_state = 41
+		}
+
+		days_mission_timeout = 120
+		fire_only_once = yes
+
+		activation = {
+			    NOT = {
+			        controls_state = 41
+				}
+			controls_state = 169
+			controls_state = 170
+			controls_state = 176
+		}
+
+		is_good = no
+
+		complete_effect = {
+			add_war_support = 0.1
+			every_country = {
+			    limit = {
+				    original_tag = SPR
+					OR = {
+					    has_government = democratic
+						has_government = communism
+				    }
+				}
+                add_war_support = -0.2
+            }				
+		}
+
+		timeout_effect = {
+			add_war_support = -0.1
+			add_political_power = -100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ 
+}
+
