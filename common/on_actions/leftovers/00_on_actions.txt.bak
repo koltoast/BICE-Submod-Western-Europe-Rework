@@ -1,0 +1,188 @@
+on_actions = {
+	# country 
+	on_new_term_election = {
+
+		random_events = {
+			100 = spain.9
+			100 = spain.14
+			100 = spain.15
+			100 = spain.16
+			100 = spain.17
+			100 = spain.28
+			100 = spain.29
+			100 = spain.30
+			100 = spain.68
+		}
+		random_events = {
+			99 = election.2
+			99 = election.3
+			99 = election.4
+			99 = election.5
+			99 = election.6
+			99 = election.11
+			99 = election.12
+			99 = election.13
+			99 = election.14
+			99 = election.15
+		}
+	}
+
+
+
+	#ROOT is winner #FROM gets annexed - This will also fire on_annex
+	on_civil_war_end = {
+		effect = {
+
+			#End of SCW
+			if = {
+				limit = {
+					FROM = {
+						original_tag = SPR
+						exists = no
+					}
+					ROOT = {
+						original_tag = SPR
+					}
+				}
+				add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1825 }
+				add_ideas = SPR_postwar1
+				set_war_support = 0.3
+				load_focus_tree = spain_focus 
+				delete_unit_template_and_units = { division_template = "Brigada Nacional" }
+				delete_unit_template_and_units = { division_template = "Columna Milicianos" }
+				complete_national_focus = SPR_election	
+			}
+			#End of SCW
+			if = {
+				limit = {
+					FROM = {
+						original_tag = SPR
+					}
+				}
+				ROOT = {
+					set_country_flag = achievement_won_spanish_civil_war
+					if = {
+					limit = {
+					    NOT = {
+						    OR = {
+					        has_country_flag = cnt_in_power
+							has_country_flag = commie_spain
+							}
+					    }
+					}
+					drop_cosmetic_tag = yes
+					}
+				}
+				FRA = { 
+				if = {
+				    limit = { has_country_flag = fra_ger_spr_war }
+					dismantle_faction = yes
+				}
+				}
+			}
+			if = {
+				limit = {
+					has_government = democratic			
+				}
+				set_politics = {
+					elections_allowed = yes
+				}
+			}
+			#End of German Civil War
+			if = {
+				limit = {
+					FROM = {
+						original_tag = GER
+						has_government = fascism
+					}
+					original_tag = GER
+					has_government = neutrality
+				}
+				set_global_flag = { flag = civil_war_olympics value = 1 days = 30 }
+				country_event = { id = wtt_germany.18 days = 1 }
+			}
+
+			#End of ideology Civil War
+			if = {
+				limit = {
+					has_country_flag = ideology_civil_war
+				}
+				clr_country_flag = ideology_civil_war
+				set_country_flag = { flag = won_ideology_civil_war value = 1 days = 365 }
+				country_event = { id = generic.11 days = 1 }
+			}
+		}
+	}
+
+	#used when puppeting in a peace conference
+	#ROOT = nation being puppeted, FROM = overlord
+	
+	on_puppet = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = DDR
+						original_tag = WGR
+						original_tag = GER
+					}
+					has_government = communism
+					has_country_leader = { name = "Wilhelm Pieck" }
+					FROM = {
+						original_tag = SOV
+						has_government = communism
+						has_country_leader = { name = "Joseph Stalin" } # Would look silly if Trotsky released Stalin's Puppet
+					}
+				}
+				add_country_leader_trait = stalins_puppet
+			}
+		}
+	}
+	
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = DDR
+						original_tag = WGR
+						original_tag = GER
+					}
+					has_government = communism
+					has_country_leader = { name = "Wilhelm Pieck" }
+					FROM = {
+						original_tag = SOV
+						has_government = communism
+						has_country_leader = { name = "Joseph Stalin" } # Would look silly if Trotsky released Stalin's Puppet
+					}
+				}
+				add_country_leader_trait = stalins_puppet
+			}
+		}
+	}
+	
+	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
+	on_annex = {
+		effect = {
+			
+		}
+	}
+
+	#Not run on a specific country.
+	on_startup = {
+        effect = {
+            SPR = {
+			country_event = { id = spain.55 days = 1 }
+			country_event = { id = spain.70 days = 4 }
+			country_event = { id = spain.72 days = 6 }
+			country_event = { id = spain.56 days = 20 }
+			country_event = { id = spain.76 days = 34 } 
+			country_event = { id = spain.75 days = 52 } 
+			country_event = { id = spain.71 days = 90 } 
+			}
+        }
+    }
+}
