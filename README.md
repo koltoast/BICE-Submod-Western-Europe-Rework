@@ -1,5 +1,5 @@
 # BICE-Western-Europe-Rework
-	This Mod aims to rework and add focus trees to all Western European countries and aims to function as a BlackIce Submod until it reaches a level of quality that would be enough   	for it to be hopefuly and eventualy included in the official BlackIce
+	This Mod aims to rework and add focus trees to all Western European countries and aims to function as a BlackIce Submod until it reaches a level of quality that would be enough for it to be hopefully and eventually included in the official BlackICE
 	You will need all 3 parts of the BlackIce mod in order to play: (Non-BICE compatibility not guaranteed)
 	https://steamcommunity.com/sharedfiles/filedetails/?id=1137372539
 	https://steamcommunity.com/sharedfiles/filedetails/?id=707136443
@@ -9,4 +9,4 @@
 	"No Pasaran! Definitive Version" by general.belisario:
 	https://steamcommunity.com/sharedfiles/filedetails/?id=774408600
 	
-	Currently compatible with BICE version: unknown
+	Currently semi-compatible with BICE version v3.0.6beta
