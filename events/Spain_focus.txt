@@ -462,8 +462,16 @@ country_event = {
 	option = {
 		name = spainf.4.a
 		add_popularity = {
-			ideology = democratic
-			popularity = 0.15
+			ideology = conservatism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.05
 		}
 		add_ideas = democratic_influence
 	}
@@ -897,7 +905,7 @@ country_event = {
 		}
 		every_country = {
 		    limit = {
-			    has_government = democratic
+			    democratic_govt = yes
 				is_in_faction = no
 				NOT = { has_idea = neutrality_idea }
 			}
