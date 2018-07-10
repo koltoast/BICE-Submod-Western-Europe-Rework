@@ -1011,16 +1011,6 @@ on_actions = {
 				    limit = { has_country_flag = fra_ger_spr_war }
 					dismantle_faction = yes
 				}
-				#GER = { clr_country_flag = begin_counting_battles }
-			}
-			
-			if = {
-				limit = {
-					democratic_govt = yes
-				}
-				set_politics = {
-					elections_allowed = yes
-				}
 			}
 		}
 	}
