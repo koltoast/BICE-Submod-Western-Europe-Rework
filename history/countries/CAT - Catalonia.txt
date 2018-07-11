@@ -29,7 +29,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_democracy = { 
 			popularity = 40
 		}
 
@@ -46,21 +46,21 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_democracy
 	elections_allowed = yes
 	election_frequency = 48
 	last_election = 1932.1.1
 }
 
 set_convoys = 50
-set_national_unity = 0.5
+set_stability = 0.5
 
 create_country_leader = {
 	name = "Lluis Companys"
 	desc = "POLITICS_COMPANYS_DESC"
 	picture = "Portrait_Catalonia_Companys.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy
 	traits = {
 	}
 }
