@@ -219,7 +219,10 @@ leader_traits = {
 	}
 	pro_allies = {
 		sprite = 13
-		liberal_acceptance = 50
+		#liberal_acceptance = 50
+		liberalism_acceptance = 50
+		conservatism_acceptance = 50
+		socialism_acceptance = 50
 		join_faction_tension = -0.20
 		opinion_gain_monthly_factor = 0.5
 		

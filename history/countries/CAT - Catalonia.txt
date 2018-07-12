@@ -29,7 +29,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_democracy = { 
+		socialism = { 
 			popularity = 40
 		}
 
@@ -46,7 +46,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_democracy
+	ruling_party = socialism
 	elections_allowed = yes
 	election_frequency = 48
 	last_election = 1932.1.1

@@ -411,7 +411,9 @@ ideas = {
 			}
 
 			modifier = {
-				liberal_drift = 0.1
+				#liberal_drift = 0.1
+				liberalism_drift = 0.1
+				socialism_drift = 0.1
 				neutrality_drift = 0.1
 			}
 		}
@@ -1050,7 +1052,10 @@ ideas = {
 			
 			
 			modifier = {
-				liberal_acceptance = 10				
+				#liberal_acceptance = 10				
+				liberalism_acceptance = 10				
+				socialism_acceptance = 10				
+				conservatism_acceptance = 10				
 			}
 		}
 

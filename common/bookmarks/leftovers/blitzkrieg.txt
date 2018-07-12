@@ -8,21 +8,22 @@ bookmarks = {
 	
 		FRA = {
 			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = liberalism
 			ideas={
 				FRA_victors_of_wwi
 				FRA_disjointed_government
 				FRA_protected_by_the_maginot_line
 			}
 			focuses = {
-				FRA_initiate_government_reform
-				FRA_support_status_quo
+				FRA_social_reforms
+				#FRA_support_status_quo
 				FRA_revise_versailles
+				FRA_little_entente
 			}
 		}
 		USA = {
 			history = USA_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = liberalism
 			ideas = {
 				home_of_the_free
 				great_depression
@@ -38,7 +39,7 @@ bookmarks = {
 		}
 		ENG = {
 			history = ENG_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				stiff_upper_lip
 				ENG_the_war_to_end_all_wars
@@ -133,7 +134,7 @@ bookmarks = {
 		"CAN"={
 			minor = yes
 			history = "CAN_BLITZKRIEG_DESC"
-			ideology = democratic
+			ideology = liberalism
 			ideas = {
 				CAN_great_depression_1
 				CAN_conscription_crisis
@@ -147,7 +148,7 @@ bookmarks = {
 		"AST"={
 			minor = yes
 			history = "AST_BLITZKRIEG_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				AST_great_depression_1
 			}
@@ -160,7 +161,7 @@ bookmarks = {
 		"NZL"={
 			minor = yes
 			history = "NZL_BLITZKRIEG_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				
 			}
@@ -173,7 +174,7 @@ bookmarks = {
 		"SAF"={
 			minor = yes
 			history = "SAF_BLITZKRIEG_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				SAF_ossewabrandwag
 				SAF_history_of_segregation
@@ -198,6 +199,20 @@ bookmarks = {
 				RAJ_the_smiling_buddha
 			}
 		}
+		"CZE"={
+			minor = yes
+			history = "CZE_GATHERING_STORM_DESC"
+			ideology = conservatism
+			ideas = {
+				CZE_skoda_works
+				CZE_divided_nation
+			}
+			focuses = {
+				CZE_sudeten_1
+				CZE_industrial_legacy
+				CZE_military_research_institute
+			}
+		}
 		"HUN"={
 			minor = yes
 			history = "HUN_BLITZKRIEG_DESC"
@@ -217,7 +232,7 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_BLITZKRIEG_DESC"
-			ideology = neutrality
+			ideology = liberalism
 			ideas = {
 				ROM_king_carol_ii_hedonist
 				ROM_preserve_greater_romania
@@ -243,6 +258,230 @@ bookmarks = {
 				YUG_join_axis
 				YUG_join_allies
 				YUG_the_ik_3
+			}
+		}
+				"CHI"={
+			minor = yes
+			history = "CHI_GATHERING_BLITZ_DESC"
+			ideology = neutrality
+			ideas = {
+				CHI_army_corruption_1
+				CHI_hyper_inflation_1
+				CHI_nine_power_treaty
+			}
+			focuses = {
+				CHI_united_front
+				CHI_army_reform
+				CHI_invite_the_flying_tigers
+			}
+		}
+		"PRC"={
+			minor = yes
+			history = "PRC_GATHERING_BLITZ_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_3
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}
+		"MAN"={
+			minor = yes
+			history = "MAN_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+				MAN_banditry
+				MAN_kwantung_veto
+				MAN_low_legitimacy_5
+			}
+			focuses = {
+				MAN_obedience
+				MAN_independence_war
+				MAN_claim_the_mandate_of_heaven
+			}
+		}
+		"GXC"={
+			minor = yes
+			history = "WARLORDS_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}		
+		"YUN"={
+			minor = yes
+			history = "WARLORDS_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}		
+		"SHX"={
+			minor = yes
+			history = "WARLORDS_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}		
+		"XSM"={
+			minor = yes
+			history = "WARLORDS_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}		
+		"SIK"={
+			minor = yes
+			history = "WARLORDS_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+				PRC_government_corruption
+				CHI_ineffective_bureaucracy_warlord
+			}
+			focuses = {
+				CHI_join_the_republican_government
+				CHI_provoke_border_clashes
+				CHI_join_the_chinese_soviet
+			}
+		}
+		### BICE ###
+		"TUR"={
+			minor = yes
+			history = "TUR_GATHERING_BLITZ_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+				TUR_cement_industry_effort
+			}
+		}
+		"FIN"={
+			minor = yes
+			history = "FIN_GATHERING_BLITZ_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				FIN_stockpile_rations
+				FIN_prepare_for_winter
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_GATHERING_BLITZ_DESC"
+			ideology = liberalism
+			ideas = {
+
+			}
+			focuses = {
+				SWE_lottorna
+				SWE_forsvarsbeslutet
+			}
+		}
+		"HOL"={
+			minor = yes
+			history = "HOL_GATHERING_BLITZ_DESC"
+			ideology = conservatism
+			ideas = {
+			}
+			focuses = {
+				tdlra_further_industrialize_the_capital
+			}
+		}
+		"BEL"={
+			minor = yes
+			history = "BEL_GATHERING_BLITZ_DESC"
+			ideology = conservatism
+			ideas = {
+				tblra_pillarized_society
+				tblra_peacetime_national_union
+				tblra_linguistic_question_in_military
+			}
+			focuses = {
+				tblra_independent_revolution
+				tblra_benelux_faction
+				tblra_colonial_claims
+			}
+		}
+		"IRE"={
+			minor = yes
+			history = "IRL_GATHERING_BLITZ_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				IRE_pol
+				IRE_armyone
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_GATHERING_BLITZ_DESC"
+			ideology = socialism
+			ideas = {
+			SPR_riots
+			SPR_old_guard
+			SPR_depression
+			}
+			focuses = {
+				SPR_pol8
+				SPR_pol4
+				SPR_soc1
+			}
+		}
+		#"SPR"={
+			#minor = yes
+			#history = "SPR_GATHERING_BLITZ_DESC"
+			#ideology = neutrality
+			#ideas = {
+			#}
+			#focuses = {
+				#SPR_Industry_focus
+				#SPR_Spain_infra
+			#}
+		#}
+		"POR"={
+			minor = yes
+			history = "POR_GATHERING_BLITZ_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+				POR_construir_fabricas
+				POR_acores
 			}
 		}
 
