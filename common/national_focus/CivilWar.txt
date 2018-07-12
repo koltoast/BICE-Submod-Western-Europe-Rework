@@ -27,7 +27,7 @@ focus_tree = {
 			focus = CIV_18
 		}
 		available = { has_country_flag = never }
-		bypass = { has_government = democratic }
+		bypass = { democratic_govt = yes }
 		x = 2
 		y = 1
 
@@ -617,7 +617,7 @@ focus_tree = {
 	            desc = "POLITICS_PRIETO_DESC"
 	            picture = "Portrait_Spain_Prieto.dds"
 	            expire = "1965.1.1"
-	            ideology = socialism
+	            ideology = social_democracy
 	            traits = {
 		            public_order_keeper
 	            }

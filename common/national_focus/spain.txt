@@ -1690,7 +1690,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = communism
-				has_government = democratic
+				democratic_govt = yes
 			}
 		}
 		x = 17
@@ -1712,7 +1712,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = neutrality
-				has_government = democratic
+				democratic_govt = yes
 				has_idea = democratic_influence
 			}
 			NOT = {
@@ -1748,7 +1748,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = neutrality
-				has_government = democratic
+				democratic_govt = yes
 				has_idea = democratic_influence
 			}
 			NOT = {
@@ -1781,7 +1781,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = neutrality
-				has_government = democratic
+				democratic_govt = yes
 			}
 		}
 		x = 16
@@ -2663,7 +2663,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SPR_soc1 }
 		available = {
 		    OR = {
-				has_government = democratic
+				democratic_govt = yes
 				has_government = neutrality
 			}
 		}
@@ -2671,7 +2671,7 @@ focus_tree = {
             AND = {		
 		        has_war_with = GER
                 OR = {
-                    has_government = democratic
+                    democratic_govt = yes
                     has_government = neutrality
                 }
             }				
@@ -2700,7 +2700,7 @@ focus_tree = {
 		prerequisite = { focus = SPR_dem1 }
 		bypass = { is_in_faction_with = ENG }
 		mutually_exclusive = { focus = SPR_dem4 }
-		available = { ENG = { has_government = democratic } }
+		available = { ENG = { democratic_govt = yes } }
 		
 		x = 31
 		y = 3
@@ -2807,7 +2807,7 @@ focus_tree = {
 		icon = GFX_focus_AST_never_gallipoli
 		prerequisite = { focus = SPR_dem1 }
 		mutually_exclusive = { focus = SPR_dem2 }
-		available = { has_government = democratic }
+		available = { democratic_govt = yes }
 		
 		x = 33
 		y = 3
@@ -2834,7 +2834,7 @@ focus_tree = {
 			is_in_faction = no
 			FRA = { 
 			is_in_faction = no
-            has_government = democratic			
+            democratic_govt = yes			
 			}
 			NOT = { has_war_with = FRA }  
 		}
@@ -2873,7 +2873,7 @@ focus_tree = {
 			is_puppet = no
 			FRA = { 
 			is_in_faction = no 
-			has_government = democratic
+			democratic_govt = yes
 			}
 			NOT = { has_war_with = FRA }
 		}
@@ -2907,7 +2907,7 @@ focus_tree = {
 			is_in_faction = no
 			USA = { 
 			is_in_faction = no 
-			has_government = democratic
+			democratic_govt = yes
 			}
 			NOT = { has_war_with = USA }
 		}
@@ -2943,7 +2943,7 @@ focus_tree = {
 			is_puppet = no
 			USA = { 
 			is_in_faction = no
-			has_government = democratic
+			democratic_govt = yes
 			}
 			NOT = { has_war_with = USA }
 			threat > 0.5
@@ -4297,7 +4297,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SPR_noref }
 		available = { 
 		OR = { 
-		has_government = democratic 
+		democratic_govt = yes 
 		has_government = communism 
 		}
 		}
