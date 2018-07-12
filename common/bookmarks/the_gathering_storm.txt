@@ -456,7 +456,7 @@ bookmarks = {
 		"SPR"={
 			minor = yes
 			history = "SPR_GATHERING_STORM_DESC"
-			ideology = socialism
+			ideology = liberalism
 			ideas = {
 			SPR_riots
 			SPR_old_guard
