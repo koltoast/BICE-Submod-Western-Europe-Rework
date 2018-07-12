@@ -1,6 +1,5 @@
 focus_tree = {
-	id = spain_focus
-	
+	id = Spain_focus
 	country = {
 		factor = 0
 		
@@ -10,14 +9,16 @@ focus_tree = {
 		}
 	}
 	
-	continuous_focus_position = { x = 50 y = 1200 }
+	continuous_focus_position = { x = 50 y = 1100 }
+	default = no
+	reset_on_civilwar = no
 	
 #INDUSTRY#
     
 	focus = {
-		id = SPR_ind_1
-		icon = GFX_goal_generic_consumer_goods
-		x = 5
+		id = SPR_Industry_focus
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 1
 		y = 0
 		cost = 10
         available = { has_idea = SPR_postwar1 }
@@ -32,23 +33,26 @@ focus_tree = {
 		swap_ideas = { remove_idea = SPR_postwar1 add_idea = SPR_postwar2 }
 		}
 	}
+
 	
-	focus = {
-		id = SPR_ind_2
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = SPR_res_2 }
+	focus = {	
+		id = SPR_Industry_focus_2
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = SPR_Industry_focus }
+		available = {
+			controls_state = 174
+		}
 		x = 1
-		y = 3
+		y = 1
 		cost = 10
 		
 		available = {
 	    owns_state = 170 
 		owns_state = 176 
 		}
-
 		
 		ai_will_do = {
-			factor = 2
+			factor = 10
 		}
 
 		bypass = {
@@ -87,18 +91,11 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			176 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.25
+				uses = 1
+				category = electronics
 			}
 		}
 	}
@@ -517,7 +514,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+					
 	focus = {
 		id = SPR_res_3
 		icon = GFX_goal_generic_production
@@ -543,7 +540,7 @@ focus_tree = {
 	}
 	
 	focus = { 
-		id = SPR_slot1
+		id = SPR_Research
 		icon = GFX_focus_research
 		prerequisite = { focus = SPR_res_3 }
 		x = 3
@@ -581,10 +578,9 @@ focus_tree = {
 		mutually_exclusive = { focus = SPR_ind_1 }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
-
-
+		
 		completion_reward = {
 		random_owned_controlled_state = {
 				limit = {
@@ -656,10 +652,9 @@ focus_tree = {
         prerequisite = { focus = SPR_revitalize }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
-
-
+		
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -782,10 +777,9 @@ focus_tree = {
 		available = { controls_state = 172 }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
-
-
+		
 		completion_reward = {
 		    add_resource = {
 				type = steel
@@ -815,8 +809,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 		}
-
-
+		
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
@@ -936,9 +929,8 @@ focus_tree = {
 		x = 10
 		y = 3
 		cost = 10
-
 		ai_will_do = {
-			factor = 90
+			factor = 10
 		}
 
 		available = {
@@ -973,7 +965,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-	    }
+		}
 	}
 	
 	focus = {
@@ -985,10 +977,9 @@ focus_tree = {
         prerequisite = { focus = SPR_vizcaya }
 		
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
-
-
+		
 		completion_reward = {
 		random_owned_controlled_state = {
 				limit = {
@@ -1048,7 +1039,6 @@ focus_tree = {
 				}
 			}
 		}
-	}
 	
 	focus = { 
 		id = SPR_research
@@ -1126,11 +1116,9 @@ focus_tree = {
 		x = 7
 		y = 2
 		cost = 10
-
 		ai_will_do = {
-			factor = 2			
+			factor = 5
 		}
-		
 		available = {
 		controls_state = 169
 		has_country_flag = recovered
@@ -1177,9 +1165,8 @@ focus_tree = {
 		x = 7
 		y = 3
 		cost = 10
-
 		ai_will_do = {
-			factor = 2			
+			factor = 5
 		}
 		
 		available = {
@@ -1207,7 +1194,7 @@ focus_tree = {
 				instant_build = yes
 			}
 		}
-
+		
 		completion_reward = {
 			41 = {
 				add_extra_state_shared_building_slots = 2
@@ -1215,6 +1202,7 @@ focus_tree = {
 					type = arms_factory
 					level = 2
 					instant_build = yes
+					}
 				}
 			}
 		}
@@ -1227,9 +1215,8 @@ focus_tree = {
 		x = 7
 		y = 4
 		cost = 10
-
 		ai_will_do = {
-			factor = 2			
+			factor = 4
 		}
 
 		bypass = {
@@ -1319,7 +1306,7 @@ focus_tree = {
 				instant_build = yes
 			}
 		}
-
+		
 		completion_reward = {
 			random_owned_state = {
 				limit = {
@@ -1375,6 +1362,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			air_experience = 5
 		}
 	}
 	
@@ -1421,7 +1409,7 @@ focus_tree = {
 				instant_build = yes
 			}
 		}
-
+		
 		completion_reward = {
 			165 = {
 				add_building_construction = {
@@ -1472,10 +1460,10 @@ focus_tree = {
 		x = 9
 		y = 6
 		cost = 10
-
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
+		
 		completion_reward = {
 			172 = {
 				add_building_construction = {
@@ -1554,10 +1542,10 @@ focus_tree = {
 		x = 9
 		y = 7
 		cost = 10
-
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
+		
 		completion_reward = {
 			764 = {
 				add_building_construction = {
@@ -1599,10 +1587,11 @@ focus_tree = {
 	#POLITICS#
 	
 	focus = {
-		id = SPR_election
-		icon = GFX_goal_support_democracy
+		id = SPR_Exercises
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = SPR_Domestic_Tanks focus = SPR_Foreign_Tanks }
 		available = {
-			has_country_flag = bypassed
+			has_war = no
 		}
 		bypass = {
         OR = {		
@@ -1613,11 +1602,10 @@ focus_tree = {
 		x = 23
 		y = 0
 		cost = 10
-
 		ai_will_do = {
 			factor = 10
 		}
-
+		
 		completion_reward = {
 			custom_effect_tooltip = go_there
 		}
@@ -1633,6 +1621,7 @@ focus_tree = {
 		bypass = {
             has_idea = SPR_works
 		}
+		
 		completion_reward = {
 		    random_owned_state = {
 				limit = {
@@ -1707,11 +1696,10 @@ focus_tree = {
 		x = 17
 		y = 2
 		cost = 10
-
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
-
+		
 		completion_reward = {
 			add_ideas = SPR_agrarian
 		}
@@ -1738,7 +1726,6 @@ focus_tree = {
 		x = 16
 		y = 3
 		cost = 10
-
 		ai_will_do = {
 			factor = 5
 			modifier = {
@@ -1746,7 +1733,7 @@ focus_tree = {
 				has_idea = democratic_influence
 			}
 		}
-
+		
 		completion_reward = {
 			add_ideas = SPR_ile
 		}
@@ -1778,11 +1765,10 @@ focus_tree = {
 		x = 16
 		y = 4
 		cost = 10
-
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
-
+		
 		completion_reward = {
 			add_ideas = SPR_democrat
 		}
@@ -1803,7 +1789,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
 
 		completion_reward = {
@@ -1825,7 +1811,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
 
 		complete_tooltip = {
@@ -1870,8 +1856,7 @@ focus_tree = {
 			}
 		}
 	}
-	
-	
+		
 	focus = {
 		id = SPR_pol6
 		icon = GFX_goal_support_communism
@@ -1888,9 +1873,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
-
+		
 		completion_reward = {
 			add_ideas = SPR_marxist
 		}
@@ -1908,16 +1893,15 @@ focus_tree = {
 		x = 18
 		y = 5
 		cost = 10
-
 		ai_will_do = {
 			factor = 10
 		}
-
+		
 		completion_reward = {
 			add_ideas = SPR_p_army
 		}
 	}
-	
+		
 	focus = {
 		id = SPR_pol7
 		icon = GFX_focus_renounce_the_treaty_of_trianon
@@ -1958,11 +1942,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 10
 		}
-
+		
 		completion_reward = {
 			add_political_power = 200
 		}
 	}
+
 	
 	focus = {
 		id = SPR_pol9
@@ -1980,9 +1965,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
-
+		
 		completion_reward = {
 			add_ideas = SPR_church
 		}
@@ -2075,8 +2060,9 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
+		
 		completion_reward = {
 			add_political_power = 50
 			#PP +120
@@ -2101,6 +2087,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
 			FRA = { 
 				add_opinion_modifier = { target = ROOT modifier = protest_action } 
@@ -2124,10 +2111,10 @@ focus_tree = {
 		x = 24
 		y = 3
 		cost = 10
-
 		ai_will_do = {
-			factor = 10
+			factor = 0
 		}
+		
 		completion_reward = {
 			GER = { 
 				add_opinion_modifier = { target = ROOT modifier = large_increase } 
@@ -2176,7 +2163,7 @@ focus_tree = {
 			}
 		}
 	}
-	
+
 	focus = {
 		id = SPR_fas3
 		icon = GFX_goal_generic_major_alliance
@@ -2194,10 +2181,10 @@ focus_tree = {
 		x = 23
 		y = 5
 		cost = 10
-
 		ai_will_do = {
 			factor = 5
 		}
+		
 		completion_reward = {
 			GER = { 
 				country_event = { id = spainf.1 } 
@@ -2218,6 +2205,10 @@ focus_tree = {
 		x = 25
 		y = 5
 		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+		
 		completion_reward = {
 			if = {
 				limit = { NOT = { has_idea = neutrality_idea } }
@@ -2245,7 +2236,6 @@ focus_tree = {
 		x = 29
 		y = 3
 		cost = 10
-
 		ai_will_do = {
 			factor = 0.1
 
@@ -2262,6 +2252,7 @@ focus_tree = {
 				ai_irrationality > 40
 			}
 		}
+		
 		completion_reward = {
 		    GER = { 
 				add_opinion_modifier = { target = ROOT modifier = large_decrease } 
@@ -2293,8 +2284,9 @@ focus_tree = {
 		y = 4
 		cost = 10
 		ai_will_do = {
-			factor = 0
+			factor = 5
 		}
+		
 		completion_reward = {
 			add_stability = 0.05
 			set_rule = { can_create_factions = yes }
@@ -2322,6 +2314,9 @@ focus_tree = {
 		x = 29
 		y = 5
 		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
 		
 		available = {
 			is_puppet = no
@@ -2334,8 +2329,9 @@ focus_tree = {
 	 	}
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
+		
 		completion_reward = {
 			if = {
 				limit = {
@@ -2372,8 +2368,9 @@ focus_tree = {
 	 	}
 
 		ai_will_do = {
-			factor = 10
+			factor = 5
 		}
+		
 		completion_reward = {
 			if = {
 				limit = {
@@ -2511,7 +2508,6 @@ focus_tree = {
 		x = 22
 		y = 3
 		cost = 10
-
 		ai_will_do = {
 			factor = 10
 		}
@@ -2695,6 +2691,7 @@ focus_tree = {
 			add_stability = 0.1
 		}
 	}
+	#######################################################
 	
 	
 	focus = {
