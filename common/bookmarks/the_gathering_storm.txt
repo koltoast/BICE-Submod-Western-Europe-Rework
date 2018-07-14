@@ -385,12 +385,14 @@ bookmarks = {
 		"TUR"={
 			minor = yes
 			history = "TUR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = socialism
 			ideas = {
 
 			}
 			focuses = {
-				TUR_cement_industry_effort
+				TUR_expand_the_sadabat_pact
+				TUR_peace_at_home_peace_in_the_world
+				TUR_the_montreux_convention
 			}
 		}
 		"FIN"={
@@ -468,7 +470,7 @@ bookmarks = {
 				SPR_soc1
 			}
 		}
-		#"SPR"={
+		#"SPR"={ #these are from Viva Espana
 			#minor = yes
 			#history = "SPR_GATHERING_STORM_DESC"
 			#ideology = neutrality
