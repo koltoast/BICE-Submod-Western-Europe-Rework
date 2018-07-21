@@ -7,21 +7,27 @@ state={
 	
 	state_category = town
 	
-	resources={
-		steel=20
+	resources = {
+		steel=24
 	}
 
-	history={
+	history = {
 		owner = SPR
-		victory_points = {
-			3816 5			
-		}
+		add_core_of = SPR
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_core_of = SPR
+		
+		1936.7.1 = {
+			add_core_of = SPA
+		}
+		
+		victory_points = { 3816 5 }
+		victory_points = { 9812 1 }
+		victory_points = { 11821 1 }
 	}
 
 	provinces={

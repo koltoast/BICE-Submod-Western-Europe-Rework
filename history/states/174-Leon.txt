@@ -2,25 +2,36 @@
 state={
 	id=174
 	name="STATE_174"
+	
 	manpower = 1566041
 	
 	state_category = large_town
 
 	history={
 		owner = SPR
-		victory_points = {
-			11707 1 
-		}
+		add_core_of = SPR
+		
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
+			arms_factory = 4
+			industrial_complex = 2
 			air_base = 2
 			11707 = {
-			naval_base = 1
+				naval_base = 1
+			}
+			6749 = {
+				naval_base = 2
 			}
 		}
 		
-		add_core_of = SPR
+		1936.7.1 = {
+			add_core_of = SPA
+		}
+		
+		victory_points = { 726 1 }
+		victory_points = { 6907 1 }
+		victory_points = { 11707 1 }
+		victory_points = { 11843 1 }
 	}
 
 	provinces={

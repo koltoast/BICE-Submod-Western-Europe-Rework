@@ -2,19 +2,19 @@
 state={
 	id=173
 	name="STATE_173" # Granada
+	
 	manpower = 1662292
 	
 	state_category = city
 	
-	resources={
-		steel=12
+	resources = {
+		steel = 12
 	}
 
-	history={
+	history = {
 		owner = SPR
-		victory_points = {
-			9979 1 
-		}
+		add_core_of = SPR
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -26,7 +26,15 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = SPR
+		
+		1936.7.1 = {
+			add_core_of = SPA
+		}
+		
+		victory_points = { 747 1 }
+		victory_points = { 1176 1 }
+		victory_points = { 9979 1 }
+		victory_points = { 12083 1 }
 	}
 
 	provinces={

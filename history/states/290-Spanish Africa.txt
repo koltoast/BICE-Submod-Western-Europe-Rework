@@ -6,14 +6,18 @@ state={
 	
 	
 	state_category = rural
-	
 
+	#resources={ #for some reason, "No Pasaran" wants to remove these
+		#steel=14
+	#}
+	
 	history={
 		owner = SPR
-		add_core_of = SPR
+		#add_core_of = SPR #for some reason, "No Pasaran" wants to add this
 		victory_points = {
 			9945 5 
 		}
+		victory_points = { 12100 1 }
 		buildings = {
 			infrastructure = 2
 			air_base = 3
