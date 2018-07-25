@@ -124,7 +124,7 @@ add_ideas = {
 
 	edu_low
 	
-	unity_united_nation		
+	#unity_united_nation		
 	foreign_neutral
 	 
 	SPR_riots
@@ -148,7 +148,7 @@ set_country_flag = officer_train_low
 set_country_flag = age_19
 set_country_flag = security_liberty_first
 set_country_flag = edu_low
-set_country_flag = unity_united_nation
+#set_country_flag = unity_united_nation
 set_country_flag = foreign_neutral
 
 ##### Country Leaders #####
