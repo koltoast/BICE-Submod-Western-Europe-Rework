@@ -157,7 +157,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_PORTELA_DESC"
 	picture = "Portrait_Spain_Manuel_Portela.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = social_liberalism
 	traits = {
 	}
 }
@@ -169,6 +169,17 @@ create_country_leader = {
 	ideology = social_liberalism
 	traits = {
 		ineffective_politician
+	}
+}
+ 
+create_country_leader = {
+	name = "Santiago Casares Quiroga"
+	desc = "POLITICS_FAI_DESC"
+	picture = "Portrait_SPR_Casares.dds"
+	expire = "1965.1.1"
+	ideology = syndicalism
+	traits = {
+	    fascism_enemy
 	}
 }
 create_country_leader = {
