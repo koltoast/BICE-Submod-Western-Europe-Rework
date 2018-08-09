@@ -378,7 +378,7 @@ country_event = {
 				ideology = fascism
 				size = 0.3
 				capital = 176
-				states = { 699 178 290 176 174 171 177 166 952 764 768 }
+				states = { 699 178 290 176 174 171 177 166 952 953 768 }
 			}
 			set_province_controller = 9812
 	    set_province_controller = 871
@@ -1232,7 +1232,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.7
 				capital = 41
-				states = { 41 171 174 176 172 290 768 952 764 766 767 297 699 177 }
+				states = { 41 171 174 176 172 290 768 952 953 766 767 297 699 177 }
 			}
 			#remove_ideas = SPR_zamora
 			
@@ -3644,7 +3644,7 @@ country_event = {
 				ideology = liberalism
 				size = 0.7
 				capital = 41
-				states = { 41 171 174 176 172 290 768 952 764 766 767 297 699 177 }
+				states = { 41 171 174 176 172 290 768 952 953 766 767 297 699 177 }
 			}
 			#remove_ideas = SPR_zamora
 			
@@ -4723,7 +4723,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.7
 				capital = 41
-				states = { 41 171 174 176 172 290 768 952 764 766 767 297 699 177 }
+				states = { 41 171 174 176 172 290 768 952 953 766 767 297 699 177 }
 			}
 			#remove_ideas = SPR_zamora
 			
