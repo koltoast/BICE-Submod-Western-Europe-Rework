@@ -5,7 +5,7 @@ frente_popular = {
 		}
         available = {
             has_idea = SPR_polarization
-			has_government = democratic
+			democratic_govt = yes
             has_civil_war = no
         }
 		cost = 30
@@ -27,7 +27,7 @@ frente_popular = {
 	        tag = SPR
 		}
         available = {
-		    has_government = democratic
+		    democratic_govt = yes
             has_civil_war = no
         }
         visible = {
@@ -56,7 +56,7 @@ frente_popular = {
 	        tag = SPR
 		}
         available = {
-		    has_government = democratic
+		    democratic_govt = yes
             has_civil_war = no
         }
 		cost = 30
@@ -79,7 +79,7 @@ frente_popular = {
 	        tag = SPR
 		}
         available = {
-		    has_government = democratic
+		    democratic_govt = yes
             has_civil_war = no
         }
 		cost = 20
@@ -112,7 +112,7 @@ SPR_alzamiento_nacional = {
 		available = {
 			has_full_control_of_state = 169
 			has_full_control_of_state = 170
-			has_full_control_of_state = 948
+			has_full_control_of_state = 952
 		}
 
 		days_mission_timeout = 70
@@ -174,7 +174,7 @@ SPR_alzamiento_nacional = {
 			    limit = {
 				    original_tag = SPR
 					OR = {
-					    has_government = democratic
+					    democratic_govt = yes
 						has_government = communism
 				    }
 				}

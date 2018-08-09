@@ -12,7 +12,7 @@ SPR_alzamiento_nacional = {
 		available = {
 			has_full_control_of_state = 169
 			has_full_control_of_state = 170
-			has_full_control_of_state = 948
+			has_full_control_of_state = 952
 		}
 
 		days_mission_timeout = 70
