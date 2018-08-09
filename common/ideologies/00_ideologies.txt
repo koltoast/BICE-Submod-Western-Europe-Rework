@@ -1,5 +1,5 @@
 ideologies = {
-	
+	#IMPORTANT: apparently when you add/modify the subideologies here you also need to modify them in common/ideas/zzz_generic.txt
 	conservatism = {
 	
 		types = {
@@ -20,6 +20,11 @@ ideologies = {
 				stability_factor = 0.05
 				enemy_partisan_effect = 0.10
 				foreign_subversive_activites = -0.05
+			}
+			rep_party_us = {
+				political_power_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
 		
@@ -95,10 +100,25 @@ ideologies = {
 				political_power_factor = 0.01
 				consumer_goods_factor = 0.025
 			}
+			dem_party_us = {
+				stability_factor = 0.025
+				political_power_factor = 0.01
+				consumer_goods_factor = 0.025
+			}
 			populism = {
 				stability_factor = 0.05
 				production_factory_max_efficiency_factor = -0.025
 				production_factory_efficiency_gain_factor = -0.025
+			}
+			swiss_federalism = {
+				production_factory_efficiency_gain_factor = 0.025
+				industrial_capacity_factory = 0.025
+				industrial_capacity_dockyard = 0.025
+			}
+			national_liberalism = {
+				political_power_factor = 0.01
+				stability_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.025
 			}
 		}
 		
@@ -163,6 +183,10 @@ ideologies = {
 				stability_factor = 0.05
 				consumer_goods_factor = -0.025
 				experience_gain_army_factor = 0.1
+			}
+			anarcho_syndicalism = {
+			}
+			anarcho_socialism = {
 			}
 		}
 		
@@ -285,6 +309,14 @@ ideologies = {
 			anti_revisionism = {
 			}
 			anarchist_communism = {
+			}
+			hoxhaism = {
+				foreign_subversive_activites = -0.10
+				enemy_partisan_effect = 0.075
+				stability_factor = -0.05
+				political_power_factor = 0.025
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 		
@@ -430,7 +462,7 @@ ideologies = {
 				##and add a bonus for red phone command points when 1.5 comes out ##TODO
 			}
 			pseudo_fascism = {
-				#maybe fascism-lite? anyway this is meant for stuff like metaxas, salazar, antonescu, petain, weird grey areas between neutrality and fascism, but not full fascism.
+				#maybe fascism-lite? anyway this is meant for stuff like metaxas, salazar, antonescu during the national legionary state, petain, weird grey areas between neutrality and fascism, but not full fascism.
 				#one main symptom of this is having a dictator but no big fascist political party supporting him in the parliament and/or as ministers for example
 				#this is also meant to be used if the fascist party/movement in that country isn't fully in power
 				enemy_partisan_effect = 0.015
@@ -458,6 +490,14 @@ ideologies = {
 			#centrism = {
 			#}
 			the_peoples_tutelage = {
+			}
+			corporatism = {
+			}
+			lon_mandate = {
+			}
+			#gaullism = {
+			#}
+			reactionism = {
 			}
 		
 		}

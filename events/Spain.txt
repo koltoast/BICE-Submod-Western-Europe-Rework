@@ -204,7 +204,7 @@ country_event = {
 	            desc = "POLITICS_FAI_DESC"
 	            picture = "Portrait_SPR_Giral.dds"
 	            expire = "1965.1.1"
-	            ideology = syndicalism
+	            ideology = anarcho_syndicalism
 	            traits = {
 	            }
             }
@@ -405,7 +405,7 @@ country_event = {
 	            desc = "POLITICS_FAI_DESC"
 	            picture = "Portrait_SPR_Giral.dds"
 	            expire = "1965.1.1"
-	            ideology = syndicalism
+	            ideology = anarcho_syndicalism
 	            traits = {
 	            }
             }
@@ -1728,7 +1728,7 @@ country_event = {
 	        desc = "POLITICS_FAI_DESC"
 	        picture = "Portrait_Spain_CNT.dds"
 	        expire = "1965.1.1"
-	        ideology = syndicalism
+	        ideology = anarcho_syndicalism
 	        traits = {
 			comitee
 	        }
@@ -2225,7 +2225,7 @@ country_event = {
 	        desc = "POLITICS_FAI_DESC"
 	        picture = "Portrait_Spain_CNT.dds"
 	        expire = "1965.1.1"
-	        ideology = syndicalism
+	        ideology = anarcho_syndicalism
 	        traits = {
 			comitee
 	        }
@@ -3292,7 +3292,7 @@ country_event = {
 	        desc = "POLITICS_FAI_DESC"
 	        picture = "Portrait_SPR_Casares.dds"
 	        expire = "1965.1.1"
-	        ideology = syndicalism
+	        ideology = anarcho_syndicalism
 	        traits = {
 			    fascism_enemy
 	        }

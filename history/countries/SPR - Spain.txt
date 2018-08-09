@@ -177,7 +177,7 @@ create_country_leader = {
 	desc = "POLITICS_FAI_DESC"
 	picture = "Portrait_SPR_Casares.dds"
 	expire = "1965.1.1"
-	ideology = syndicalism
+	ideology = anarcho_syndicalism
 	traits = {
 	    fascism_enemy
 	}
