@@ -1,0 +1,13 @@
+﻿l_english:
+ CIV_fascism:0 "Nationalist Spain"
+ CIV_fascism_DEF:0 "Nationalist Spain"
+ CIV_democratic:0 "Republican Spain"
+ CIV_democratic_DEF:0 "The Spanish Republic"
+ CIV_neutrality:0 "Republican Spain"
+ CIV_neutrality_DEF:0 "The Spanish Republic"
+ CIV_communism:0 "Republican Spain"
+ CIV_communism_DEF:0 "The Spanish Republic"
+ CIV_fascism_ADJ:0 "Nationalist"
+ CIV_democratic_ADJ:0 "Republican"
+ CIV_neutrality_ADJ:0 "Republican"
+ CIV_communism_ADJ:0 "Republican"

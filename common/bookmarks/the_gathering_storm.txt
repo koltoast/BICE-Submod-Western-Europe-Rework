@@ -384,7 +384,7 @@ bookmarks = {
 		### BICE ###
 		"TUR"={
 			minor = yes
-			history = "TUR_GATHERING_STORM_DESC"
+			history = "TUR_BICE_GATHERING_STORM_DESC"
 			ideology = socialism
 			ideas = {
 
@@ -397,7 +397,7 @@ bookmarks = {
 		}
 		"FIN"={
 			minor = yes
-			history = "FIN_GATHERING_STORM_DESC"
+			history = "FIN_BICE_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 				
@@ -409,7 +409,7 @@ bookmarks = {
 		}
 		"SWE"={
 			minor = yes
-			history = "SWE_GATHERING_STORM_DESC"
+			history = "SWE_BICE_GATHERING_STORM_DESC"
 			ideology = liberalism
 			ideas = {
 
@@ -421,7 +421,7 @@ bookmarks = {
 		}
 		"HOL"={
 			minor = yes
-			history = "HOL_GATHERING_STORM_DESC"
+			history = "HOL_BICE_GATHERING_STORM_DESC"
 			ideology = conservatism
 			ideas = {
 			}
@@ -431,7 +431,7 @@ bookmarks = {
 		}
 		"BEL"={
 			minor = yes
-			history = "BEL_GATHERING_STORM_DESC"
+			history = "BEL_BICE_GATHERING_STORM_DESC"
 			ideology = conservatism
 			ideas = {
 				tblra_pillarized_society
@@ -446,7 +446,7 @@ bookmarks = {
 		}
 		"IRE"={
 			minor = yes
-			history = "IRL_GATHERING_STORM_DESC"
+			history = "IRE_BICE_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 			}
@@ -483,13 +483,61 @@ bookmarks = {
 		#}
 		"POR"={
 			minor = yes
-			history = "POR_GATHERING_STORM_DESC"
+			history = "POR_BICE_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 			}
 			focuses = {
 				POR_construir_fabricas
 				POR_acores
+			}
+		}
+		"BMP"={
+			minor = yes
+			history = "BMP_BICE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				BMP_death_of_izz_ad-din_al-qassam
+				BMP_jewish_immigration
+				BMP_British_Rule
+				CHI_incompetent_officers
+			}
+			focuses = {
+				BMP_re-establish_the_mandate
+				BMP_put_down_the_arab_revolt
+				BMP_jewish_militias
+			}
+		}
+		"JOR"={
+			minor = yes
+			history = "JOR_BICE_GATHERING_STORM_DESC"
+			ideology = monarchism
+			ideas = {
+				Arab_Minor
+				Arab_hyper_inflation_1
+				Arab_Tribes
+				CHI_incompetent_officers
+			}
+			focuses = {
+				merJOR_Bureaucracy
+				merJOR_Support_Britain
+				merJOR_Motorize_Arab_Legion
+			}
+		}
+		"IRQ"={
+			minor = yes
+			history = "IRQ_BICE_GATHERING_STORM_DESC"
+			ideology = monarchism
+			ideas = {
+				IRQ_internal_conflict
+				IRQ_revolt
+				IRQ_treaty
+				IRQ_iraqi_navy
+			}
+			focuses = {
+				IRQ_air
+				IRQ_British_aid
+				IRQ_Ger_aid
 			}
 		}
 		

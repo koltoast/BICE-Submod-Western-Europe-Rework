@@ -39,7 +39,7 @@
  STATE_38:0 "Norrland"
  STATE_39:0 "South Tyrol"
  STATE_40:0 "Barnaul"
- STATE_41:0 "Castilla la Nueva"
+ STATE_41:0 "Castilla la Nueva" #Madrid
  STATE_42:0 "Moselland"
  STATE_43:0 "Northern Hungary"
  STATE_44:0 "Albania"
@@ -164,19 +164,19 @@
  STATE_163:0 "Zara"
  STATE_164:0 "Dodecanese"
  STATE_165:0 "Catalonia"
- STATE_166:0 "Aragón"
+ STATE_166:0 "Aragón" #Aragon
  STATE_167:0 "Valencia"
  STATE_168:0 "Murcia"
- STATE_169:0 "Sevilla"
- STATE_170:0 "Badajoz"
+ STATE_169:0 "Sevilla" #Andalusia
+ STATE_170:0 "Badajoz" #Extremadura
  STATE_171:0 "Galicia"
- STATE_172:0 "Basque Country"
- STATE_173:0 "Málaga"
- STATE_174:0 "León"
+ STATE_172:0 "Basque Country" #Navarre
+ STATE_173:0 "Málaga" #Granada
+ STATE_174:0 "León" #Leon
  STATE_175:0 "La Mancha"
- STATE_176:0 "Castilla la Vieja"
- STATE_177:0 "Baleares"
- STATE_178:0 "Canarias"
+ STATE_176:0 "Castilla la Vieja" #Castille
+ STATE_177:0 "Balearic Islands"
+ STATE_178:0 "Canary Islands"
  STATE_179:0 "Beja"
  STATE_180:0 "Porto"
  STATE_181:0 "Guarda"
@@ -187,7 +187,7 @@
  STATE_186:0 "Peloponnese"
  STATE_187:0 "Aegean Islands"
  STATE_188:0 "Memel"
- STATE_189:0 "Siaulai"
+ STATE_189:1 "Siauliai"
  STATE_190:0 "Kurzeme"
  STATE_191:0 "Tartu"
  STATE_192:0 "Odessa"
@@ -227,7 +227,7 @@
  STATE_226:0 "Dnipropetrovsk"
  STATE_227:0 "Stalino"
  STATE_228:0 "Voroshilovgrad"
- STATE_229:0 "Baku"
+ STATE_229:0 "Baku" #Azerbaijan
  STATE_230:0 "Armenia"
  STATE_231:0 "Georgia"
  STATE_232:0 "Grozny"
@@ -284,11 +284,11 @@
  STATE_283:0 "Gansu"
  STATE_284:0 "North Island"
  STATE_285:0 "New South Wales"
- STATE_286:0 "Indochina"
+ STATE_286:0 "Indochina" #Southern Indochina
  STATE_287:0 "Taklamakan"
  STATE_288:0 "Burma"
  STATE_289:0 "Siam"
- STATE_290:0 "Ceuta and Melilla"
+ STATE_290:0 "Ceuta and Melilla" #Spanish Africa
  STATE_291:0 "Baghdad"
  STATE_292:0 "Nejd"
  STATE_293:0 "Yemen"
@@ -402,7 +402,7 @@
  STATE_401:0 "Engels"
  STATE_402:0 "Akhtubinsk"
  STATE_403:0 "Tyumen"
- STATE_404:0 "Kzyl Orda"
+ STATE_404:0 "Kzyl Orda" #Kyzyl Orda
  STATE_405:0 "Tashkent"
  STATE_406:0 "Gurev"
  STATE_407:0 "Uralsk"
@@ -417,7 +417,7 @@
  STATE_416:0 "Khorasan"
  STATE_417:0 "Hamadan"
  STATE_418:0 "Semnan"
- STATE_419:0 "Azerbaijan"
+ STATE_419:0 "Azerbaijan" #Tibriz
  STATE_420:0 "Gilan"
  STATE_421:0 "Kurdistan"
  STATE_422:0 "Ceylon"
@@ -455,7 +455,7 @@
  STATE_454:0 "Palestine"
  STATE_455:0 "Jordan"
  STATE_456:0 "Aswan"
- STATE_457:0 "Arabian Desert"
+ STATE_457:0 "Arabian Desert" #Eastern Desert
  STATE_458:0 "Tunisia"
  STATE_459:0 "Algiers"
  STATE_460:0 "Constantine"
@@ -498,7 +498,7 @@
  STATE_497:0 "Maranhao"
  STATE_498:0 "Rio Grande"
  STATE_499:0 "Bahia"
- STATE_500:0 "Rio de Janerio"
+ STATE_500:0 "Rio de Janeiro"
  STATE_501:0 "Sao Paulo"
  STATE_502:0 "Rio Grande Sul"
  STATE_503:0 "Santa Catarina"
@@ -697,7 +697,7 @@
  STATE_696:0 "Bermuda"
  STATE_697:0 "Madeira"
  STATE_698:0 "Azores"
- STATE_699:0 "Western Sahara"
+ STATE_699:0 "Western Sahara" #Rio de Oro
  STATE_700:0 "Sierra Leone"
  STATE_701:0 "Gambia"
  STATE_702:0 "Cape Verde"
@@ -741,9 +741,9 @@
  STATE_740:0 "Vancouver Island"
  STATE_741:0 "Cambodia"
  STATE_742:0 "Stalinabad"
- STATE_768:0 "Navarra"
- STATE_948:0 "Caceres"
- STATE_764:0 "Rif"
- STATE_765:0 "Rousillon"
- STATE_766:0 "Cantabria"
- STATE_767:0 "Asturias"
+ STATE_957:0 "Navarra"
+ STATE_952:0 "Caceres"
+ STATE_953:0 "Rif"
+ STATE_954:0 "Rousillon"
+ STATE_955:0 "Cantabria"
+ STATE_956:0 "Asturias"

@@ -230,8 +230,8 @@ focus_tree = {
 		cost = 10
 		available = {
 		owns_state = 172
-        owns_state = 766
-        owns_state = 767		
+        owns_state = 955
+        owns_state = 956		
         owns_state = 171 
 		}
 		bypass = {
@@ -267,14 +267,14 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			766 = {
+			955 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
 					instant_build = yes
 				}
 			}
-			767 = {
+			956 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3
@@ -1487,7 +1487,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			768 = {
+			957 = {
 				add_building_construction = {
 					type = bunker
 					province = 915
@@ -1547,7 +1547,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			764 = {
+			953 = {
 				add_building_construction = {
 					type = bunker
 					province = 10113
@@ -2630,7 +2630,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = SPR_fas10 }
 		bypass = {
-		    owns_state = 765
+		    owns_state = 954
 		}
 		x = 20
 		y = 4
@@ -2643,7 +2643,7 @@ focus_tree = {
 		owns_state = 461
 		owns_state = 462
 		FRA = {
-		owns_state = 765
+		owns_state = 954
 		}
 		NOT = { has_war_with = FRA }
 		}

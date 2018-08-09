@@ -1287,7 +1287,7 @@ country_event = {
 			    SPR = { exists = yes }
 			}
 		effect_tooltip = {
-			SPR = { transfer_state = 765 }
+			SPR = { transfer_state = 954 }
 		}
 
 		hidden_effect = {
@@ -1302,7 +1302,7 @@ country_event = {
 				}
 			}
 		effect_tooltip = {
-			D01 = { transfer_state = 765 }
+			D01 = { transfer_state = 954 }
 		}
 
 		hidden_effect = {
@@ -1318,7 +1318,7 @@ country_event = {
 			    SPR = { exists = yes }
 			}
 		effect_tooltip = {
-			SPR = { add_state_claim = 765 }
+			SPR = { add_state_claim = 954 }
 		}
 		hidden_effect = {
 			SPR = { country_event = spainf.41 }
@@ -1331,7 +1331,7 @@ country_event = {
 				}
 			}
 		effect_tooltip = {
-			D01 = { add_state_claim = 765 }
+			D01 = { add_state_claim = 954 }
 		}
 		hidden_effect = {
 			D01 = { country_event = spainf.41 }
@@ -1355,7 +1355,7 @@ country_event = {
 		    limit = {
 			    SPR = { exists = yes }
 			}
-		SPR = { transfer_state = 765 }
+		SPR = { transfer_state = 954 }
 		SPR = { 
 			add_opinion_modifier = {
 				target = FRA
@@ -1369,7 +1369,7 @@ country_event = {
 			    SPR = { exists = yes }
 				}
 			}
-		D01 = { transfer_state = 765 }
+		D01 = { transfer_state = 954 }
 		D01 = { 
 			add_opinion_modifier = {
 				target = FRA
@@ -1395,7 +1395,7 @@ country_event = {
 		    limit = {
 			    SPR = { exists = yes }
 			}
-		SPR = { add_state_claim = 765 }
+		SPR = { add_state_claim = 954 }
 		SPR = { 
 			add_opinion_modifier = {
 				target = FRA
@@ -1409,7 +1409,7 @@ country_event = {
 			    SPR = { exists = yes }
 				}
 			}
-		D01 = { add_state_claim = 765 }
+		D01 = { add_state_claim = 954 }
 		D01 = { 
 			add_opinion_modifier = {
 				target = FRA
