@@ -230,7 +230,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		owns_state = 172
-        owns_state = 766
+        owns_state = 955
         owns_state = 767		
         owns_state = 171 
 		}
@@ -267,7 +267,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			766 = {
+			955 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 3

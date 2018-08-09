@@ -47,7 +47,7 @@ country_event = {
 				ideology = liberalism
 				size = 0.7
 				capital = 41
-				states = { 41 165 167 168 172 173 175 170 297 169 767 766 }
+				states = { 41 165 167 168 172 173 175 170 297 169 767 955 }
 			}
 			country_event = { id = spain.20 days = 275 }
 			country_event = { id = spain.21 days = 60 }
@@ -1232,7 +1232,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.7
 				capital = 41
-				states = { 41 171 174 176 172 290 768 952 953 766 767 297 699 177 }
+				states = { 41 171 174 176 172 290 768 952 953 955 767 297 699 177 }
 			}
 			#remove_ideas = SPR_zamora
 			
@@ -3644,7 +3644,7 @@ country_event = {
 				ideology = liberalism
 				size = 0.7
 				capital = 41
-				states = { 41 171 174 176 172 290 768 952 953 766 767 297 699 177 }
+				states = { 41 171 174 176 172 290 768 952 953 955 767 297 699 177 }
 			}
 			#remove_ideas = SPR_zamora
 			
@@ -4723,7 +4723,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.7
 				capital = 41
-				states = { 41 171 174 176 172 290 768 952 953 766 767 297 699 177 }
+				states = { 41 171 174 176 172 290 768 952 953 955 767 297 699 177 }
 			}
 			#remove_ideas = SPR_zamora
 			
