@@ -152,54 +152,26 @@ ideas = {
 	head_of_state = {
 		niceto_alcalà-zamora = {
 			allowed = {
-				OR = {
-					original_tag = SPR
-					#original_tag = D01
-				}
+				original_tag = "SPR"
 			}
-			
-			picture = niceto_alcalà-zamora.dds
-			
-			cancel_if_invalid = yes
 			
 			available = {
-				YES =
-				OR = {
-					original_tag = SPR
-					#original_tag = D01
-				}
-				OR = { 
-					has_government = liberalism
-					AND = {
-						democratic_govt = yes
-					}
-				}
+				democratic_govt = yes
 			}
-			manuel_azana = {
+			
+			traits = { fascist }
+		}
+		manuel_azana = {
 			allowed = {
-				OR = {
-					original_tag = SPR
-					#original_tag = D01
-				}
+				original_tag = "SPR"
 			}
-			
-			picture = manuel_azana.dds
-			
-			cancel_if_invalid = yes
-			
+
 			available = {
-				YES =
-				OR = {
-					original_tag = SPR
-					#original_tag = D01
-				}
-				OR = { 
-					has_government = liberalism
-					AND = {
-						democratic_govt = yes
-					}
-				}
+				democratic_govt = yes
 			}
+
+			traits = { inefficient_politician }
+		}
 		alfonso_xiii = {
 			allowed = {
 				OR = {
