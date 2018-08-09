@@ -1487,7 +1487,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			768 = {
+			957 = {
 				add_building_construction = {
 					type = bunker
 					province = 915
