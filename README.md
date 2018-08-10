@@ -10,5 +10,5 @@
 	https://steamcommunity.com/sharedfiles/filedetails/?id=774408600
 	
 	Currently semi-compatible with BICE version v3.0.6beta
-	STATUS: fully integrated everything in common, events/Spain_focus but not events/Spain and i integrated history/states and changed state IDs to work with current BICE. same with map/supplyareas
-	things left to adapt atm are: history/countries/SPR, history/units, most of the gfx folder, events/Spain.txt
+	OLD STATUS: fully integrated everything in common, events/Spain_focus but not events/Spain and i integrated history/states and changed state IDs to work with current BICE. same with map/supplyareas
+	CURRENT STATUS: things left to adapt atm are: history/units, most of the gfx folder, events/Spain.txt, loc: state_names and VPs

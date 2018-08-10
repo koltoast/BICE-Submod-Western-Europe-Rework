@@ -4,8 +4,7 @@ oob = "SPR_1936"
 
 set_convoys = 150
 
-set_stability = 0.4 #set_stability = 0.7
-set_war_support = 0.3
+set_stability = 0.7
 
 set_research_slots = 3
 ##### Starting techs #####
@@ -85,29 +84,26 @@ set_politics = {
 			popularity = 4
 		}
 		fascism = {
-			popularity = 34 #popularity = 5
+			popularity = 34
 		}
 		
 		conservatism = {
-			popularity = 14 #popularity = 25
+			popularity = 14
 		}
 		
 		communism = {
 			popularity = 10
 		}
-		
-		#neutrality = { 
-		#	popularity = 40
-		#}
 	}
 	
 	ruling_party = liberalism
-	last_election = "1933.11.19" #last_election = "1933.2.16"
-	election_frequency = 48 #election_frequency = 36
+	last_election = "1933.2.16"
+	election_frequency = 36
 	elections_allowed = yes
 }
 
-add_ideas = { 	
+add_ideas = {
+	
 	export_focus
 	tax_low
 	tariffs_average
@@ -129,12 +125,11 @@ add_ideas = {
 	edu_low
 	
 	#unity_united_nation		
-	
+	foreign_neutral
+	 
 	SPR_riots
 	SPR_old_guard
 	SPR_depression 
-
-	foreign_neutral
 }
 
 set_country_flag = export_focus
@@ -153,6 +148,7 @@ set_country_flag = officer_train_low
 set_country_flag = age_19
 set_country_flag = security_liberty_first
 set_country_flag = edu_low
+#set_country_flag = unity_united_nation
 set_country_flag = foreign_neutral
 
 ##### Country Leaders #####
@@ -175,16 +171,17 @@ create_country_leader = {
 		ineffective_politician
 	}
 }
- #create_country_leader = {
-#	name = "Santiago Casares Quiroga"
-#	desc = "POLITICS_FAI_DESC"
-#	picture = "Portrait_SPR_Casares.dds"
-#	expire = "1965.1.1"
-#	ideology = anarcho_syndicalism
-#	traits = {
-#	    fascism_enemy
-#	}
-#}
+ 
+create_country_leader = {
+	name = "Santiago Casares Quiroga"
+	desc = "POLITICS_FAI_DESC"
+	picture = "Portrait_SPR_Casares.dds"
+	expire = "1965.1.1"
+	ideology = anarcho_syndicalism
+	traits = {
+	    fascism_enemy
+	}
+}
 create_country_leader = {
 	name = "Francisco Largo Caballero"
 	desc = "POLITICS_CABALLERO_DESC"
@@ -213,7 +210,6 @@ create_country_leader = {
 	ideology = falangism
 	traits = {
 		dictator
-	    careful_diplomat
 	}
 }
 create_country_leader = {
@@ -226,7 +222,6 @@ create_country_leader = {
 		#
 	}
 }
-
 create_country_leader = {
 	name = "José María Gil-Robles"
 	desc = "POLITICS_GIL_ROBLES_DESC"
@@ -260,14 +255,10 @@ create_country_leader = {
 }
 ##### Field Marshals #####
 create_field_marshal = {
-	name = "José Asensio Torrado" #Asensio Torrado
+	name = "Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	traits = { defensive_doctrine_FM }
 	skill = 2
-    attack_skill = 1
-    defense_skill = 3
-    planning_skill = 2
-    logistics_skill = 1
 }
 ##### Corps Commanders #####
 create_corps_commander = {
