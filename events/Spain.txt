@@ -53,7 +53,7 @@ country_event = {
 			country_event = { id = spain.21 days = 60 }
 			country_event = { id = spain.41 days = 30 }
 			#remove_ideas = SPR_zamora
-			set_cosmetic_tag = CIV
+			set_cosmetic_tag = SPRCIV
 			#add_timed_idea = { idea = SPR_nat_off days = 200 }
 			create_country_leader = {
 	            name = "Emilio Mola"
@@ -236,7 +236,7 @@ country_event = {
 		            last_election = "1936.2.16"
 	                election_frequency = 48
 		        }
-				set_cosmetic_tag = CIV
+				set_cosmetic_tag = SPRCIV
 				add_popularity = {
 					ideology = neutrality
 					popularity = -0.5
@@ -410,7 +410,7 @@ country_event = {
 	            }
             }
 		    }
-			set_cosmetic_tag = CIV
+			set_cosmetic_tag = SPRCIV
 			every_country = {
 				limit = {
 					original_tag = SPR
@@ -422,7 +422,7 @@ country_event = {
 			    set_war_support = 0.8
 				#country_event = { id = spain.2 days = 1 }
 				load_oob = "SPA_Civil_War"	
-				set_cosmetic_tag = CIV
+				set_cosmetic_tag = SPRCIV
 				#add_timed_idea = { idea = SPR_nat_off days = 200 }
 				country_event = { id = spain.20 days = 275 }
 				country_event = { id = spain.21 days = 60 }
@@ -1269,7 +1269,7 @@ country_event = {
 		            last_election = "1936.2.16"
 	                election_frequency = 48
 		        }
-				set_cosmetic_tag = CIV
+				set_cosmetic_tag = SPRCIV
 				add_popularity = {
 					ideology = liberalism
 					popularity = -0.1
