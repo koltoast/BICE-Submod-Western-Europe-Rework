@@ -560,6 +560,12 @@ ideas = {
 			}
 		}
 	}
+	#Domestic
+	domestic_minister = {
+	}
+	#Academy
+	military_academy = {
+	}
 	#Theorist
 	theorist = {
 		SPR_nicolas_molero = {	
