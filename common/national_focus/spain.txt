@@ -3564,6 +3564,8 @@ focus_tree = {
 			add_political_power = 100
 			set_country_flag = monarchy_restored
 			#remove_ideas = SPR_zamora
+			add_ideas = constitutional_monarchy
+			add_ideas = juan_iii
 		}
 	}
 	
@@ -3586,13 +3588,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -70
 			set_party_name = {
-		        ideology = neutrality
+		        ideology = monarchism #neutrality
 		        long_name = SPR_mon_long 
 		        name = SPR_mon
             }
-			set_cosmetic_tag = KSP
+			set_cosmetic_tag = SPA_MONARCHY #KSP
 			set_politics = {
-			    ruling_party = neutrality
+			    ruling_party = monarchism #neutrality
 			    elections_allowed = no
 		    }
 			create_country_leader = {
@@ -3600,14 +3602,16 @@ focus_tree = {
 	            desc = "POLITICS_JUAN_DESC"
 	            picture = "Portrait_SPR_Juan.dds"
 	            expire = "1965.1.1"
-	            ideology = despotism
+	            ideology = absolutism #despotism
 	            traits = {
 	            }
             }
 			add_popularity = {
-			ideology = neutrality
+			ideology = monarchism #neutrality
 			popularity = 0.2
 			}
+			add_ideas = constitutional_monarchy
+			add_ideas = juan_iii
 		}
 	}
 	
