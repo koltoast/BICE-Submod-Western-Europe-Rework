@@ -1,56 +1,96 @@
 ﻿l_english:
- SPR_fascism:0 "Spain"
- SPR_fascism_DEF:0 "Spain"
- SPR_democratic:0 "Spain"
- SPR_democratic_DEF:0 "Spain"
- SPR_neutrality:0 "Spain"
- SPR_neutrality_DEF:0 "Spain"
+ SPR_fascism:0 "Spanish State" #Spain
+ SPR_fascism_DEF:0 "The Spanish State" #Spain
+ SPR_conservatism:0 "Spanish Republic" #Spain
+ SPR_conservatism_DEF:0 "The Spanish Republic" #Spain
+ SPR_liberalism:0 "Spanish Republic" #Spain
+ SPR_liberalism_DEF:0 "The Spanish Republic" #Spain
+ SPR_socialism:0 "Spanish Republic" #Spain
+ SPR_socialism_DEF:0 "The Spanish Republic" #Spain
+ SPR_neutrality:0 "Spanish Republic" #Spain
+ SPR_neutrality_DEF:0 "The Spanish Republic" #Spain
  SPR_communism:0 "Spanish Republic"
  SPR_communism_DEF:0 "The Spanish Republic"
+ SPR_monarchism:0 "Kingdom of Spain"
+ SPR_monarchism_DEF:0 "The Kingdom of Spain"
  SPR_fascism_ADJ:0 "Spanish"
- SPR_democratic_ADJ:0 "Spanish"
+ SPR_conservatism_ADJ:0 "Spanish"
+ SPR_liberalism_ADJ:0 "Spanish"
+ SPR_socialism_ADJ:0 "Spanish"
  SPR_neutrality_ADJ:0 "Spanish"
  SPR_communism_ADJ:0 "Spanish"
- CAT_fascism:0 "Catalonia"
- CAT_fascism_DEF:0 "Catalonia"
- CAT_democratic:0 "Catalonia"
- CAT_democratic_DEF:0 "Catalonia"
- CAT_neutrality:0 "Catalonia"
- CAT_neutrality_DEF:0 "Catalonia"
- CAT_communism:0 "Catalan Socialist Republic"
- CAT_communism_DEF:0 "The Catalan Socialist Republic"
+ SPR_monarchism_ADJ:0 "Spanish"
+ CAT_fascism:0 "Catalan State" #Catalonia
+ CAT_fascism_DEF:0 "The Catalan State" #Catalonia
+ CAT_conservatism:0 "Catalan Republic" #Catalonia
+ CAT_conservatism_DEF:0 "The Catalan Republic" #Catalonia
+ CAT_liberalism:0 "Catalan Republic" #Catalonia
+ CAT_liberalism_DEF:0 "The Catalan Republic" #Catalonia
+ CAT_socialism:0 "Catalan Republic" #Catalonia
+ CAT_socialism_DEF:0 "The Catalan Republic" #Catalonia
+ CAT_neutrality:0 "Catalan Republic" #Catalonia
+ CAT_neutrality_DEF:0 "The Catalan Republic" #Catalonia
+ CAT_communism:0 "Catalan Popular Republic" #Catalan Socialist Republic
+ CAT_communism_DEF:0 "The Catalan Popular Republic" #The Catalan Socialist Republic
+ CAT_monarchism:0 "Kingdom of Catalonia"
+ CAT_monarchism_DEF:0 "The Kingdom of Catalonia"
  CAT_fascism_ADJ:0 "Catalan"
- CAT_democratic_ADJ:0 "Catalan"
+ CAT_conservatism_ADJ:0 "Catalan"
+ CAT_socialism_ADJ:0 "Catalan"
+ CAT_liberalism_ADJ:0 "Catalan"
  CAT_neutrality_ADJ:0 "Catalan"
  CAT_communism_ADJ:0 "Catalan"
+ CAT_monarchism_ADJ:0 "Catalan"
  MED_fascism:0 "Mediterranean Empire"
  MED_fascism_DEF:0 "The Mediterranean Empire"
- MED_democratic:0 "United Mediterranean Republic"
- MED_democratic_DEF:0 "The United Mediterranean Republic"
+ MED_conservatism:0 "United Mediterranean Republic"
+ MED_conservatism_DEF:0 "The United Mediterranean Republic"
+ MED_liberalism:0 "United Mediterranean Republic"
+ MED_liberalism_DEF:0 "The United Mediterranean Republic"
+ MED_socialism:0 "United Mediterranean Republic"
+ MED_socialism_DEF:0 "The United Mediterranean Republic"
  MED_neutrality:0 "Mediterranean Federation"
  MED_neutrality_DEF:0 "The Mediterranean Federation"
  MED_communism:0 "Mediterranean Socialist Republic"
  MED_communism_DEF:0 "The Mediterranean Socialist Republic"
+ MED_monarchism:0 "Mediterranean Kingdom"
+ MED_monarchism_DEF:0 "The Mediterranean Kingdom"
  MED_fascism_ADJ:0 "Mediterranean"
- MED_democratic_ADJ:0 "Mediterranean"
+ MED_conservatism_ADJ:0 "Mediterranean"
+ MED_liberalism_ADJ:0 "Mediterranean"
+ MED_socialism_ADJ:0 "Mediterranean"
  MED_neutrality_ADJ:0 "Mediterranean"
  MED_communism_ADJ:0 "Mediterranean"
- CNT_fascism:0 "Nationalist Spain"
- CNT_fascism_DEF:0 "Nationalist Spain"
- CNT_democratic:0 "United Spanish States"
- CNT_democratic_DEF:0 "The United Spanish States"
- CNT_neutrality:0 "Spanish Federation"
- CNT_neutrality_DEF:0 "The Spanish Federation"
- CNT_communism:0 "Iberian Syndicalist Federation"
- CNT_communism_DEF:0 "The Iberian Syndicalist Federation"
- CNT_fascism_ADJ:0 "Spanish"
- CNT_democratic_ADJ:0 "Spanish"
- CNT_neutrality_ADJ:0 "Spanish"
- CNT_communism_ADJ:0 "Syndicalist"
- SPA_MONARCHY_fascism:0 "Nationalist Spain"
- SPA_MONARCHY_fascism_DEF:0 "Nationalist Spain"
- SPA_MONARCHY_democratic:0 "Kingdom of Spain"
- SPA_MONARCHY_democratic_DEF:0 "The Kingdom of Spain"
+ MED_monarchism_ADJ:0 "Mediterranean"
+ CNT_fascism:0 "Catalan State" #Nationalist Spain
+ CNT_fascism_DEF:0 "The Catalan State" #Nationalist Spain
+ CNT_conservatism:0 "Catalan Republic" #United Spanish States
+ CNT_conservatism_DEF:0 "The Catalan Republic" #The United Spanish States
+ CNT_liberalism:0 "Catalan Republic" #United Spanish States
+ CNT_liberalism_DEF:0 "The Catalan Republic" #The United Spanish States
+ CNT_socialism:0 "CNT-FAI"
+ CNT_socialism_DEF:0 "CNT-FAI"
+ CNT_neutrality:0 "Catalan Republic" #Spanish Federation
+ CNT_neutrality_DEF:0 "The Catalan Republic" #The Spanish Federation
+ CNT_communism:0 "CNT-FAI" #Iberian Syndicalist Federation
+ CNT_communism_DEF:0 "CNT-FAI" #The Iberian Syndicalist Federation
+ CNT_monarchism:0 "Kingdom of Catalonia"
+ CNT_monarchism_DEF:0 "The Kingdom of Catalonia"
+ CNT_fascism_ADJ:0 "Catalan" #Spanish
+ CNT_conservatism_ADJ:0 "Catalan" #Spanish
+ CNT_liberalism_ADJ:0 "Catalan" #Spanish
+ CNT_socialism_ADJ:0 "Anarcho-Syndicalist"
+ CNT_neutrality_ADJ:0 "Catalan" #Spanish
+ CNT_communism_ADJ:0 "Anarcho-Communist" #Syndicalist
+ CNT_monarchism_ADJ:0 "Catalan"
+ SPA_MONARCHY_fascism:0 "Spanish State" #Nationalist Spain
+ SPA_MONARCHY_fascism_DEF:0 "The Spanish State" #Nationalist Spain
+ SPA_MONARCHY_conservatism:0 "Kingdom of Spain"
+ SPA_MONARCHY_conservatism_DEF:0 "The Kingdom of Spain"
+ SPA_MONARCHY_liberalism:0 "Kingdom of Spain"
+ SPA_MONARCHY_liberalism_DEF:0 "The Kingdom of Spain"
+ SPA_MONARCHY_socialism:0 "Kingdom of Spain"
+ SPA_MONARCHY_socialism_DEF:0 "The Kingdom of Spain"
  SPA_MONARCHY_neutrality:0 "Kingdom of Spain"
  SPA_MONARCHY_neutrality_DEF:0 "The Kingdom of Spain"
  SPA_MONARCHY_communism:0 "Spanish Worker's Republic"

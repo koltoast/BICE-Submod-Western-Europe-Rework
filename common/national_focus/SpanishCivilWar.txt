@@ -725,11 +725,14 @@ focus_tree = {
 		completion_reward = {
 		    add_political_power = 100
 			set_country_flag = king_restored 
+			set_party_name = {
+				ideology = fascism
+				long_name = SPR_directorio_long 
+				name = SPR_directorio
+			}
+			add_ideas = constitutional_monarchy
+			add_ideas = juan_iii
 		}
-		set_party_name = 
-		{ideology = fascism
-		long_name = SPR_directorio_long 
-		name = SPR_directorio }
 		x = 7
 		y = 8
 

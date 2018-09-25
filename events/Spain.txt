@@ -4254,7 +4254,7 @@ country_event = {
 	            desc = "POLITICS_JUNTA_DESC"
 	            picture = "Portrait_SPR_Junta.dds"
 	            expire = "1965.1.1"
-	            ideology = despotism
+	            ideology = military_dictatorship #despotism
 	            traits = {
 		        #
 	            }
