@@ -114,6 +114,7 @@ bookmarks = {
 			ideology = communism
 			ideas = {
 				trotskyite_plot
+				exile_trotsky
 				home_of_revolution
 			}
 			focuses = {
