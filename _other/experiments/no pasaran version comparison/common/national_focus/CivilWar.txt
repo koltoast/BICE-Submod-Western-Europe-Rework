@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CIV_republic
-		icon = GFX_goal_support_democracy
+		icon = GFX_focus_spr_dem
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_18
@@ -91,6 +91,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_no_pasaran
 		}
+		bypass = {
+		    has_country_flag = cnt_in_power
+		}
 		completion_reward = {
 		    add_political_power = -50
 		}
@@ -104,6 +107,9 @@ focus_tree = {
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_moscow
+		}
+		bypass = {
+		    has_country_flag = cnt_in_power
 		}
 		completion_reward = {
 		    add_equipment_to_stockpile = {
@@ -135,6 +141,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_moscow
 		}
+		bypass = {
+		    has_country_flag = cnt_in_power
+		}
 		completion_reward = {
 		    add_equipment_to_stockpile = {
 				type = basic_light_tank
@@ -162,6 +171,9 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_sov_tanks
 		}
+		bypass = {
+		    has_country_flag = cnt_in_power
+		}
 		completion_reward = {
 			army_experience = 30
 			add_tech_bonus = {
@@ -184,7 +196,13 @@ focus_tree = {
 		}
 		completion_reward = {
 		    swap_ideas = { remove_idea = SPR_militias add_idea = SPR_militias2 }
-            load_oob = SPR_mixta			
+            load_oob = SPR_mixta
+            if = {
+                limit = {
+		            has_country_flag = cnt_in_power
+                }
+                add_political_power = -100
+            }				
 		}
 		x = 4
 		y = 4
@@ -192,13 +210,21 @@ focus_tree = {
 	}
 	focus = {
 		id = CIV_unified
-		icon = GFX_goal_generic_army_doctrines
+		icon = GFX_focus_spr_army
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_brigada
 		}
 		completion_reward = {
-		    remove_ideas = SPR_militias2			
+		    remove_ideas = SPR_militias2
+            if = {
+                limit = {
+		            has_country_flag = cnt_in_power
+                }
+                add_political_power = -100
+				add_stability = -0.1
+			    add_war_support = -0.25
+            }			
 		}
 		x = 4
 		y = 6
@@ -206,7 +232,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CIV_political
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_spanish_rep
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_advisors
@@ -250,7 +276,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = CIV_anarchists
 		}
-		available = { has_country_flag = SPR_democratic_socialist }
+		available = { 
+		    OR = {
+			    has_government = democratic
+				has_country_flag = pce_power
+		    }
+		}
 		completion_reward = {
 		    add_political_power = 100
 		}
@@ -260,10 +291,16 @@ focus_tree = {
 	}
 	focus = {
 		id = CIV_order
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_focus_spr_dem
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_moderates
+		}
+		available = { 
+		    OR = {
+			    has_government = democratic
+				has_country_flag = pce_power
+		    }
 		}
 		completion_reward = {
 		    add_stability = 0.15
@@ -279,6 +316,12 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_order
 		}
+		available = { 
+		    OR = {
+			    has_government = democratic
+				has_country_flag = pce_power
+		    }
+		}
 		completion_reward = {
 		    add_ideas = SPR_ejercito1
 	    }
@@ -292,6 +335,12 @@ focus_tree = {
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_popular
+		}
+		available = { 
+		    OR = {
+			    has_government = democratic
+				has_country_flag = pce_power
+		    }
 		}
 		completion_reward = { 
 		swap_ideas = { remove_idea = SPR_ejercito1 add_idea = SPR_ejercito2 } 
@@ -381,7 +430,7 @@ focus_tree = {
 	focus = {
 		id = CIV_mercenaries
 		icon = GFX_goal_generic_alliance
-		cost = 10,00
+		cost = 8
 		prerequisite = {
 			focus = CIV_italy
 		}
@@ -401,7 +450,7 @@ focus_tree = {
 	focus = {
 		id = CIV_organize
 		icon = GFX_focus_generic_strike_at_democracy2
-		cost = 10,00
+		cost = 5
 		prerequisite = {
 			focus = CIV_mercenaries
 		}
@@ -415,7 +464,7 @@ focus_tree = {
 	focus = {
 		id = CIV_falange
 		icon = GFX_goal_generic_propaganda
-		cost = 10,00
+		cost = 7
 		prerequisite = {
 			focus = CIV_organize
 		}
@@ -432,8 +481,8 @@ focus_tree = {
 	}
 	focus = {
 		id = CIV_church
-		icon = GFX_focus_generic_diplomatic_treaty
-		cost = 10,00
+		icon = GFX_focus_spanish_deal
+		cost = 5
 		prerequisite = {
 			focus = CIV_falange
 		}
@@ -447,7 +496,7 @@ focus_tree = {
 	focus = {
 		id = CIV_traditionalists
 		icon = GFX_focus_generic_home_defense
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = CIV_falange
 		}
@@ -465,7 +514,7 @@ focus_tree = {
 	focus = {
 		id = CIV_requetes
 		icon = GFX_focus_generic_little_entente
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = CIV_falange
 		}
@@ -643,7 +692,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CIV_responsabilidades
-		icon = GFX_focus_cze_german_puppet
+		icon = GFX_focus_CZE_german_puppet
 		cost = 10,00
 		prerequisite = {
 			focus = CIV_cult
@@ -676,6 +725,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_anarchists
 		}
+		available = { has_country_flag = cnt_in_power }
 		completion_reward = {
 		    add_ideas = SPR_revolution
 	    }
@@ -690,6 +740,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_mass
 		}
+		available = { has_country_flag = cnt_in_power }
 		completion_reward = { 
 		swap_ideas = { remove_idea = SPR_revolution add_idea = SPR_revolution2 } 
 		}
@@ -704,6 +755,7 @@ focus_tree = {
 		prerequisite = {
 			focus = CIV_revolucionario
 		}
+		available = { has_country_flag = cnt_in_power }
 		completion_reward = { 
 		swap_ideas = { remove_idea = SPR_revolution2 add_idea = SPR_revolution3 } 
 		}
@@ -797,6 +849,7 @@ focus_tree = {
 		    ENG = {
 			    has_war_with = GER
 			}
+			has_government = democratic
 		}
 		completion_reward = {
 		    ENG = {

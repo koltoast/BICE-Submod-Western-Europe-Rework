@@ -15,6 +15,13 @@ units = {
 		division_template = "Columna Milicianos"
 	}
 	division = {
+		name = "Quinto Regimiento"
+		location = 3938  # Madrid
+		division_template = "División de Infantería"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
 		name = "II Milicia de Madrid"
 		location = 3938  # Madrid
 		division_template = "Columna Milicianos"
@@ -119,6 +126,21 @@ units = {
 	}
 	division = {
 		name = "IV Milicia del CSP"
+		location = 9979  # Malaga
+		division_template = "Columna Milicianos"
+	}
+	division = {
+		name = "V Milicia del CSP"
+		location = 9979  # Malaga
+		division_template = "Columna Milicianos"
+	}
+	division = {
+		name = "VI Milicia del CSP"
+		location = 9979  # Malaga
+		division_template = "Columna Milicianos"
+	}
+	division = {
+		name = "VII Milicia del CSP"
 		location = 9979  # Malaga
 		division_template = "Columna Milicianos"
 	}

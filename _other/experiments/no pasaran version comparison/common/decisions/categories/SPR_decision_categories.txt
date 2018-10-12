@@ -15,7 +15,7 @@ frente_popular = {
 	}
 }
 
-#SPR_republican_struggle = {
+SPR_republican_struggle = {
 	
 	icon = generic_political_actions
 	
@@ -26,11 +26,24 @@ frente_popular = {
 	    has_country_flag = republican_spain
 		has_civil_war = yes
 	}
-#}
+}
 
-#SPR_alzamiento_nacional = {
+SPR_battles = {
 	
-	icon = military_operation
+	icon = generic_political_actions
+	
+	allowed = {
+		original_tag = SPR
+	}
+	visible = {
+	    has_country_flag = republican_spain
+		has_civil_war = yes
+	}
+}
+
+SPA_offensives = {
+	
+	icon = generic_political_actions
 	
 	allowed = {
 		original_tag = SPR
@@ -39,4 +52,4 @@ frente_popular = {
 	    has_country_flag = alzamiento_nats
 		has_civil_war = yes
 	}
-#}
+}

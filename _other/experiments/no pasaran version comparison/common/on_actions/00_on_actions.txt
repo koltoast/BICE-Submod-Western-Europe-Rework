@@ -589,7 +589,15 @@ on_actions = {
 				add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1825 }
 				add_ideas = SPR_postwar1
 				set_war_support = 0.3
-				load_focus_tree = spain_focus 
+				load_focus_tree = spain_focus
+				remove_ideas = SPR_mutinies
+				remove_ideas = SPR_militias
+				remove_ideas = SPR_militias2
+				remove_ideas = SPR_no_pasaran
+				remove_ideas = SPR_texaco
+				remove_ideas = SPR_militias2
+				remove_ideas = SPR_militias2
+				remove_ideas = SPR_militias2
 				delete_unit_template_and_units = { division_template = "Brigada Nacional" }
 				delete_unit_template_and_units = { division_template = "Columna Milicianos" }
 				complete_national_focus = SPR_election	

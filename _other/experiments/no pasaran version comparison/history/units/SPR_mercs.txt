@@ -1,4 +1,5 @@
-    division = {
+units = {  
+	division = {
 		name = "1er Tabor de Regulares"		
 		location = 12100
 		division_template = "División de Infantería"
@@ -26,3 +27,4 @@
 		start_equipment_factor = 0.8
 
 	}
+}
