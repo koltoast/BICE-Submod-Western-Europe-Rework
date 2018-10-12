@@ -1,0 +1,29 @@
+
+state={
+	id=174
+	name="STATE_174"
+	manpower = 1566041
+	
+	state_category = large_town
+
+	history={
+		owner = SPR
+		victory_points = {
+			11707 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			air_base = 2
+			11707 = {
+			naval_base = 1
+			}
+		}
+		
+		add_core_of = SPR
+	}
+
+	provinces={
+		726 874 918 920 3725 3727 3918 3920 4024 6746 6867 6907 11843 
+	}
+}
