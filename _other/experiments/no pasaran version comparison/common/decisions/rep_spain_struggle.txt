@@ -1,0 +1,304 @@
+
+SPR_republican_struggle = {
+
+    expand_quinto = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            NOT = { has_completed_focus = CIV_popular }
+            has_civil_war = yes
+        }
+		cost = 40
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 15 }
+			add_to_variable = { var = ana_inf value = -10 }
+			add_to_variable = { var = lib_inf value = -5 }
+            hidden_effect = {
+			    load_oob = "SPR_quinto"
+			}
+            custom_effect_tooltip = get_quinto				
+
+        }
+
+    }
+	
+	redistribute_sov = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_completed_focus = CIV_moscow
+            has_civil_war = yes
+        }
+		cost = 35
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = -20 }
+			add_to_variable = { var = ana_inf value = 10 }
+			add_to_variable = { var = lib_inf value = 10 }
+            				
+
+        }
+
+    }
+	
+	stop_colective = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 60
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 5 }
+			add_to_variable = { var = ana_inf value = -25 }
+			add_to_variable = { var = lib_inf value = 20 }
+            				
+
+        }
+
+    }
+	
+	train_militias = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 45
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+		modifier = { political_power_gain = 1 }
+		days_remove = 90
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = -10 }
+			add_to_variable = { var = ana_inf value = 20 }
+			add_to_variable = { var = lib_inf value = -10 }
+            				
+
+        }
+
+    }
+	
+	cnt_min = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 30
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = -10 }
+			add_to_variable = { var = ana_inf value = 10 }
+			add_to_variable = { var = lib_inf value = 0 }
+            				
+
+        }
+
+    }
+	
+	pce_min = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 30
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 10 }
+			add_to_variable = { var = ana_inf value = -10 }
+			add_to_variable = { var = lib_inf value = 0 }
+            				
+
+        }
+
+    }
+	
+	professional_officers = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 55
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+		modifier = { political_power_gain = 1 }
+		days_remove = 90
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 0 }
+			add_to_variable = { var = ana_inf value = -15 }
+			add_to_variable = { var = lib_inf value = 15 }
+            				
+
+        }
+
+    }
+	
+	expand_police = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 0
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 5 }
+			add_to_variable = { var = ana_inf value = -20 }
+			add_to_variable = { var = lib_inf value = 15 }
+            				
+
+        }
+
+    }
+	
+	
+	quinto_officers = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+			has_completed_focus = CIV_popular
+        }
+		cost = 80
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+		modifier = { political_power_gain = 1 }
+		days_remove = 90
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 20 }
+			add_to_variable = { var = ana_inf value = -10 }
+			add_to_variable = { var = lib_inf value = -10 }
+            				
+
+        }
+
+    }
+	
+	expand_police = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 70
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 5 }
+			add_to_variable = { var = ana_inf value = -20 }
+			add_to_variable = { var = lib_inf value = 15 }
+            				
+
+        }
+
+    }
+	
+	guerrillas_retaguardia = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 85
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+		modifier = { political_power_gain = 1 }
+		days_remove = 400
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = -15 }
+			add_to_variable = { var = ana_inf value = 20 }
+			add_to_variable = { var = lib_inf value = -5 }
+            				
+
+        }
+
+    }
+	
+	reserva_milicia = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 75
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = -5 }
+			add_to_variable = { var = ana_inf value = 10 }
+			add_to_variable = { var = lib_inf value = -5 }
+            				
+
+        }
+
+    }
+	
+	quinta_biberon = {
+        allowed = { 
+	        tag = SPR
+		}
+        available = {
+            has_civil_war = yes
+        }
+		cost = 90
+        visible = {
+			NOT = { has_country_flag = struggle_over }
+        }
+        fire_only_once = yes
+        complete_effect = {
+		    add_to_variable = { var = com_inf value = 5 }
+			add_to_variable = { var = ana_inf value = -10 }
+			add_to_variable = { var = lib_inf value = 5 }
+            				
+
+        }
+
+    }
+}
