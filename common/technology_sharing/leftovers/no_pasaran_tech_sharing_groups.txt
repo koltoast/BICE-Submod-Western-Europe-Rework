@@ -1,4 +1,4 @@
-#these are unjustifiably OP, therefore i'm disabling them
+#these are unjustifiably OP, therefore i'm disabling them by putting them in the leftovers folder
 technology_sharing_group = {
 
 	id = iberian_research
